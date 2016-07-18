@@ -24,5 +24,6 @@ python convert_tsv_to_vcf.py -i curated_spreadsheet.tsv --info status,donorDist,
 python convert_tsv_to_vcf.py -i curated_spreadsheet.tsv --info status,donorDist,acceptorDist,type | grep -v "status=discard" | grep -v "type=ds" > final/acceptor_skip.vcf
 
 # Other notes
+
 convert_tsv_to_vcf.py is in maclab_scripts/vcf/
 tableize_vep_vcf.py is in maclab_scripts/vep/
