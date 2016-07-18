@@ -1,0 +1,26 @@
+Here is the pipeline used to generate this set of variants causing exon skipping:
+
+BEFORE CURATION:
+1. query_hgmd_splice_MySQL.py produces hgmd_splice_variants.tsv
+
+2. pull out hgmd_slice_pmids (trivial, can use cut or some other command line utility)
+
+3. scrape_pubmed_abstracts.py takes hgmd_splice_pmids.txt as input, produces exon_skipping_pmids.txt
+
+4. map_pmids_to_variants.py takes exon_skipping_pmids.txt + hgmd_splice_variants.tsv as input, produces exon_skipping.prelim.vcf
+
+5. annotate preliminary VCF file with VEP (this is just to collect useful info for the manual curation step) 
+
+6. run tableize_vep_vcf.py on annotated to get data into spreadsheet format (exon_skipping.prelim.tsv)
+
+7. finally, run create_spreadsheet.R to get exon_skipping_spreadsheet.tsv. This will serve as the medium for manual curation.
+
+Note: merge_spreadsheets.R merges manual annotations from a partially curated spreadsheet with a newly generated spreadsheet 
+
+AFTER CURATION:
+python convert_tsv_to_vcf.py -i curated_spreadsheet.tsv --info status,donorDist,acceptorDist,type | grep -v "status=discard" | grep -v "type=as" > final/donor_skip.vcf
+
+python convert_tsv_to_vcf.py -i curated_spreadsheet.tsv --info status,donorDist,acceptorDist,type | grep -v "status=discard" | grep -v "type=ds" > final/acceptor_skip.vcf
+
+convert_tsv_to_vcf.py is in maclab_scripts/vcf/
+tableize_vep_vcf.py is in maclab_scripts/vep/

@@ -1,0 +1,1 @@
+python src/query_hgmd_splice_MySQL.py -q "SELECT a.pmid,a.location,a.type,a.tag,a.base,b.coordSTART,b.coordEND,b.chromosome,b.strand FROM splice a, hg19_coords b WHERE a.acc_num = b.acc_num" -o data/hgmd_splice_variants.tsv

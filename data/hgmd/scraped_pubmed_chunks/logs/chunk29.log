@@ -1,0 +1,498 @@
+Sender: LSF System <lsf@node0907>
+Subject: Job 9582148: <scrape.29> in cluster <cromwell> Done
+
+Job <scrape.29> was submitted from host <gold> by user <birnbaum> in cluster <cromwell>.
+Job was executed on host(s) <node0907>, in queue <hour>, as user <birnbaum> in cluster <cromwell>.
+</home/unix/birnbaum> was used as the home directory.
+</humgen/atgu1/fs03/birnbaum/cryptic-splice> was used as the working directory.
+Started at Thu Jun  2 16:38:10 2016
+Results reported on Thu Jun  2 16:48:14 2016
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+python src/scrape_pubmed_abstracts.py -p data/skip/hgmd_splice_pmids.txt --include "exon skipping" --include "skipping of exon" --exclude "cryptic splice site" --exclude "cryptic donor" --exclude "cryptic acceptor" -o data/skip/scraping_pubmed_chunks/chunk29.txt --chunk 29/30
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :               111.82 sec.
+    Max Memory :             51 MB
+    Average Memory :         48.36 MB
+    Total Requested Memory : 750.00 MB
+    Delta Memory :           699.00 MB
+    (Delta: the difference between Total Requested Memory and Max Memory.)
+    Max Processes :          3
+    Max Threads :            4
+
+The output (if any) follows:
+
+http://www.ncbi.nlm.nih.gov/pubmed/17160906
+http://www.ncbi.nlm.nih.gov/pubmed/23351400
+http://www.ncbi.nlm.nih.gov/pubmed/21068128
+http://www.ncbi.nlm.nih.gov/pubmed/19058225
+http://www.ncbi.nlm.nih.gov/pubmed/19574260
+http://www.ncbi.nlm.nih.gov/pubmed/23559409
+http://www.ncbi.nlm.nih.gov/pubmed/23351400
+http://www.ncbi.nlm.nih.gov/pubmed/17160906
+http://www.ncbi.nlm.nih.gov/pubmed/16415887
+http://www.ncbi.nlm.nih.gov/pubmed/19574260
+http://www.ncbi.nlm.nih.gov/pubmed/21147908
+http://www.ncbi.nlm.nih.gov/pubmed/18953340
+http://www.ncbi.nlm.nih.gov/pubmed/16389551
+http://www.ncbi.nlm.nih.gov/pubmed/23352160
+http://www.ncbi.nlm.nih.gov/pubmed/21726435
+http://www.ncbi.nlm.nih.gov/pubmed/11137999
+http://www.ncbi.nlm.nih.gov/pubmed/18408718
+http://www.ncbi.nlm.nih.gov/pubmed/19708871
+http://www.ncbi.nlm.nih.gov/pubmed/22765023
+http://www.ncbi.nlm.nih.gov/pubmed/18408718
+http://www.ncbi.nlm.nih.gov/pubmed/18408718
+http://www.ncbi.nlm.nih.gov/pubmed/19747362
+invalid literal for int() with base 10: 'ABST'
+http://www.ncbi.nlm.nih.gov/pubmed/18603562
+invalid literal for int() with base 10: 'ABST'
+http://www.ncbi.nlm.nih.gov/pubmed/21618415
+http://www.ncbi.nlm.nih.gov/pubmed/21994215
+http://www.ncbi.nlm.nih.gov/pubmed/19629655
+http://www.ncbi.nlm.nih.gov/pubmed/11443543
+http://www.ncbi.nlm.nih.gov/pubmed/18086728
+invalid literal for int() with base 10: 'LSDB'
+http://www.ncbi.nlm.nih.gov/pubmed/22801493
+http://www.ncbi.nlm.nih.gov/pubmed/16329997
+http://www.ncbi.nlm.nih.gov/pubmed/20817676
+http://www.ncbi.nlm.nih.gov/pubmed/15750594
+http://www.ncbi.nlm.nih.gov/pubmed/22876777
+http://www.ncbi.nlm.nih.gov/pubmed/22876777
+http://www.ncbi.nlm.nih.gov/pubmed/24689076
+http://www.ncbi.nlm.nih.gov/pubmed/22429680
+http://www.ncbi.nlm.nih.gov/pubmed/22017532
+http://www.ncbi.nlm.nih.gov/pubmed/8205619
+http://www.ncbi.nlm.nih.gov/pubmed/22017532
+http://www.ncbi.nlm.nih.gov/pubmed/22017532
+http://www.ncbi.nlm.nih.gov/pubmed/20474083
+http://www.ncbi.nlm.nih.gov/pubmed/10980596
+http://www.ncbi.nlm.nih.gov/pubmed/20967502
+http://www.ncbi.nlm.nih.gov/pubmed/11420676
+http://www.ncbi.nlm.nih.gov/pubmed/9242456
+http://www.ncbi.nlm.nih.gov/pubmed/22507745
+http://www.ncbi.nlm.nih.gov/pubmed/1467311
+http://www.ncbi.nlm.nih.gov/pubmed/7887414
+http://www.ncbi.nlm.nih.gov/pubmed/10864200
+http://www.ncbi.nlm.nih.gov/pubmed/11420676
+http://www.ncbi.nlm.nih.gov/pubmed/21305319
+http://www.ncbi.nlm.nih.gov/pubmed/24382691
+http://www.ncbi.nlm.nih.gov/pubmed/23894400
+http://www.ncbi.nlm.nih.gov/pubmed/21305319
+http://www.ncbi.nlm.nih.gov/pubmed/8302608
+http://www.ncbi.nlm.nih.gov/pubmed/11420676
+http://www.ncbi.nlm.nih.gov/pubmed/18685109
+http://www.ncbi.nlm.nih.gov/pubmed/23409989
+http://www.ncbi.nlm.nih.gov/pubmed/19930417
+http://www.ncbi.nlm.nih.gov/pubmed/16494995
+http://www.ncbi.nlm.nih.gov/pubmed/19556618
+http://www.ncbi.nlm.nih.gov/pubmed/14656244
+http://www.ncbi.nlm.nih.gov/pubmed/21059199
+http://www.ncbi.nlm.nih.gov/pubmed/9129144
+http://www.ncbi.nlm.nih.gov/pubmed/11370630
+http://www.ncbi.nlm.nih.gov/pubmed/10706125
+http://www.ncbi.nlm.nih.gov/pubmed/23894400
+http://www.ncbi.nlm.nih.gov/pubmed/20805372
+http://www.ncbi.nlm.nih.gov/pubmed/21761402
+http://www.ncbi.nlm.nih.gov/pubmed/21305319
+http://www.ncbi.nlm.nih.gov/pubmed/19556618
+http://www.ncbi.nlm.nih.gov/pubmed/22653678
+http://www.ncbi.nlm.nih.gov/pubmed/12610779
+http://www.ncbi.nlm.nih.gov/pubmed/10980596
+http://www.ncbi.nlm.nih.gov/pubmed/20522432
+http://www.ncbi.nlm.nih.gov/pubmed/12161593
+http://www.ncbi.nlm.nih.gov/pubmed/19676060
+http://www.ncbi.nlm.nih.gov/pubmed/11462173
+http://www.ncbi.nlm.nih.gov/pubmed/23463580
+http://www.ncbi.nlm.nih.gov/pubmed/10716208
+http://www.ncbi.nlm.nih.gov/pubmed/22152682
+http://www.ncbi.nlm.nih.gov/pubmed/21839045
+http://www.ncbi.nlm.nih.gov/pubmed/20474083
+http://www.ncbi.nlm.nih.gov/pubmed/12196661
+http://www.ncbi.nlm.nih.gov/pubmed/15083071
+http://www.ncbi.nlm.nih.gov/pubmed/19917002
+http://www.ncbi.nlm.nih.gov/pubmed/9486974
+http://www.ncbi.nlm.nih.gov/pubmed/7550241
+http://www.ncbi.nlm.nih.gov/pubmed/11061528
+http://www.ncbi.nlm.nih.gov/pubmed/11874711
+http://www.ncbi.nlm.nih.gov/pubmed/15745925
+http://www.ncbi.nlm.nih.gov/pubmed/11061528
+http://www.ncbi.nlm.nih.gov/pubmed/9024270
+http://www.ncbi.nlm.nih.gov/pubmed/14751036
+http://www.ncbi.nlm.nih.gov/pubmed/19201763
+http://www.ncbi.nlm.nih.gov/pubmed/21990111
+http://www.ncbi.nlm.nih.gov/pubmed/21990111
+http://www.ncbi.nlm.nih.gov/pubmed/20820830
+http://www.ncbi.nlm.nih.gov/pubmed/23374165
+http://www.ncbi.nlm.nih.gov/pubmed/10330339
+http://www.ncbi.nlm.nih.gov/pubmed/23266810
+http://www.ncbi.nlm.nih.gov/pubmed/10330339
+http://www.ncbi.nlm.nih.gov/pubmed/11339651
+http://www.ncbi.nlm.nih.gov/pubmed/21990111
+http://www.ncbi.nlm.nih.gov/pubmed/10330339
+http://www.ncbi.nlm.nih.gov/pubmed/9295267
+http://www.ncbi.nlm.nih.gov/pubmed/10330339
+http://www.ncbi.nlm.nih.gov/pubmed/17959406
+http://www.ncbi.nlm.nih.gov/pubmed/21990111
+http://www.ncbi.nlm.nih.gov/pubmed/10330339
+http://www.ncbi.nlm.nih.gov/pubmed/12125808
+http://www.ncbi.nlm.nih.gov/pubmed/20817676
+http://www.ncbi.nlm.nih.gov/pubmed/23830518
+http://www.ncbi.nlm.nih.gov/pubmed/12579492
+http://www.ncbi.nlm.nih.gov/pubmed/11349230
+http://www.ncbi.nlm.nih.gov/pubmed/11326333
+http://www.ncbi.nlm.nih.gov/pubmed/23876379
+http://www.ncbi.nlm.nih.gov/pubmed/19002213
+http://www.ncbi.nlm.nih.gov/pubmed/12919139
+http://www.ncbi.nlm.nih.gov/pubmed/11349230
+http://www.ncbi.nlm.nih.gov/pubmed/22549410
+http://www.ncbi.nlm.nih.gov/pubmed/22989526
+http://www.ncbi.nlm.nih.gov/pubmed/12080485
+http://www.ncbi.nlm.nih.gov/pubmed/20817676
+http://www.ncbi.nlm.nih.gov/pubmed/17100991
+http://www.ncbi.nlm.nih.gov/pubmed/10888877
+http://www.ncbi.nlm.nih.gov/pubmed/12754710
+http://www.ncbi.nlm.nih.gov/pubmed/24436435
+http://www.ncbi.nlm.nih.gov/pubmed/20089971
+http://www.ncbi.nlm.nih.gov/pubmed/20089971
+http://www.ncbi.nlm.nih.gov/pubmed/21931168
+http://www.ncbi.nlm.nih.gov/pubmed/23625533
+http://www.ncbi.nlm.nih.gov/pubmed/19732863
+http://www.ncbi.nlm.nih.gov/pubmed/19896113
+http://www.ncbi.nlm.nih.gov/pubmed/19878917
+http://www.ncbi.nlm.nih.gov/pubmed/19896109
+http://www.ncbi.nlm.nih.gov/pubmed/20300565
+http://www.ncbi.nlm.nih.gov/pubmed/19896113
+http://www.ncbi.nlm.nih.gov/pubmed/19896109
+http://www.ncbi.nlm.nih.gov/pubmed/19896113
+http://www.ncbi.nlm.nih.gov/pubmed/23714322
+http://www.ncbi.nlm.nih.gov/pubmed/16107578
+http://www.ncbi.nlm.nih.gov/pubmed/16107578
+http://www.ncbi.nlm.nih.gov/pubmed/21669885
+http://www.ncbi.nlm.nih.gov/pubmed/12032570
+http://www.ncbi.nlm.nih.gov/pubmed/23942199
+http://www.ncbi.nlm.nih.gov/pubmed/16107578
+http://www.ncbi.nlm.nih.gov/pubmed/12032568
+http://www.ncbi.nlm.nih.gov/pubmed/12032568
+http://www.ncbi.nlm.nih.gov/pubmed/16107578
+http://www.ncbi.nlm.nih.gov/pubmed/23942199
+http://www.ncbi.nlm.nih.gov/pubmed/16107578
+http://www.ncbi.nlm.nih.gov/pubmed/12032570
+http://www.ncbi.nlm.nih.gov/pubmed/16267500
+http://www.ncbi.nlm.nih.gov/pubmed/11112658
+http://www.ncbi.nlm.nih.gov/pubmed/23042115
+http://www.ncbi.nlm.nih.gov/pubmed/9328481
+http://www.ncbi.nlm.nih.gov/pubmed/20185476
+http://www.ncbi.nlm.nih.gov/pubmed/10533067
+invalid literal for int() with base 10: 'LSDB'
+http://www.ncbi.nlm.nih.gov/pubmed/17304050
+http://www.ncbi.nlm.nih.gov/pubmed/15798777
+http://www.ncbi.nlm.nih.gov/pubmed/17304050
+invalid literal for int() with base 10: 'NO ID'
+http://www.ncbi.nlm.nih.gov/pubmed/17304050
+http://www.ncbi.nlm.nih.gov/pubmed/10533066
+invalid literal for int() with base 10: 'LSDB'
+http://www.ncbi.nlm.nih.gov/pubmed/16114042
+http://www.ncbi.nlm.nih.gov/pubmed/10533066
+http://www.ncbi.nlm.nih.gov/pubmed/10533067
+http://www.ncbi.nlm.nih.gov/pubmed/15798777
+http://www.ncbi.nlm.nih.gov/pubmed/10942116
+http://www.ncbi.nlm.nih.gov/pubmed/9242607
+http://www.ncbi.nlm.nih.gov/pubmed/17304050
+http://www.ncbi.nlm.nih.gov/pubmed/23389244
+http://www.ncbi.nlm.nih.gov/pubmed/9328481
+http://www.ncbi.nlm.nih.gov/pubmed/20399389
+http://www.ncbi.nlm.nih.gov/pubmed/15798777
+http://www.ncbi.nlm.nih.gov/pubmed/10227394
+invalid literal for int() with base 10: 'LSDB'
+invalid literal for int() with base 10: 'LSDB'
+invalid literal for int() with base 10: 'LSDB'
+http://www.ncbi.nlm.nih.gov/pubmed/9863590
+http://www.ncbi.nlm.nih.gov/pubmed/15798777
+http://www.ncbi.nlm.nih.gov/pubmed/18830229
+http://www.ncbi.nlm.nih.gov/pubmed/10533066
+invalid literal for int() with base 10: 'LSDB'
+http://www.ncbi.nlm.nih.gov/pubmed/17304050
+http://www.ncbi.nlm.nih.gov/pubmed/17304050
+http://www.ncbi.nlm.nih.gov/pubmed/8990012
+http://www.ncbi.nlm.nih.gov/pubmed/10735580
+http://www.ncbi.nlm.nih.gov/pubmed/18772611
+http://www.ncbi.nlm.nih.gov/pubmed/15798777
+http://www.ncbi.nlm.nih.gov/pubmed/18032745
+http://www.ncbi.nlm.nih.gov/pubmed/11112665
+http://www.ncbi.nlm.nih.gov/pubmed/15798777
+http://www.ncbi.nlm.nih.gov/pubmed/10205261
+http://www.ncbi.nlm.nih.gov/pubmed/11112665
+http://www.ncbi.nlm.nih.gov/pubmed/11112665
+http://www.ncbi.nlm.nih.gov/pubmed/21811971
+http://www.ncbi.nlm.nih.gov/pubmed/15798777
+http://www.ncbi.nlm.nih.gov/pubmed/16114042
+invalid literal for int() with base 10: 'LSDB'
+http://www.ncbi.nlm.nih.gov/pubmed/15798777
+http://www.ncbi.nlm.nih.gov/pubmed/9412784
+http://www.ncbi.nlm.nih.gov/pubmed/9412784
+http://www.ncbi.nlm.nih.gov/pubmed/10205261
+http://www.ncbi.nlm.nih.gov/pubmed/9412784
+invalid literal for int() with base 10: 'LSDB'
+http://www.ncbi.nlm.nih.gov/pubmed/17304050
+http://www.ncbi.nlm.nih.gov/pubmed/16981987
+http://www.ncbi.nlm.nih.gov/pubmed/17304050
+http://www.ncbi.nlm.nih.gov/pubmed/17304050
+invalid literal for int() with base 10: 'LSDB'
+invalid literal for int() with base 10: 'LSDB'
+http://www.ncbi.nlm.nih.gov/pubmed/17304050
+http://www.ncbi.nlm.nih.gov/pubmed/15798777
+http://www.ncbi.nlm.nih.gov/pubmed/16981987
+http://www.ncbi.nlm.nih.gov/pubmed/15798777
+http://www.ncbi.nlm.nih.gov/pubmed/10533066
+invalid literal for int() with base 10: 'LSDB'
+http://www.ncbi.nlm.nih.gov/pubmed/11112665
+http://www.ncbi.nlm.nih.gov/pubmed/11112665
+http://www.ncbi.nlm.nih.gov/pubmed/17304050
+http://www.ncbi.nlm.nih.gov/pubmed/17304050
+http://www.ncbi.nlm.nih.gov/pubmed/17304050
+http://www.ncbi.nlm.nih.gov/pubmed/17304050
+http://www.ncbi.nlm.nih.gov/pubmed/10942116
+http://www.ncbi.nlm.nih.gov/pubmed/10205261
+http://www.ncbi.nlm.nih.gov/pubmed/10330349
+http://www.ncbi.nlm.nih.gov/pubmed/10942116
+invalid literal for int() with base 10: 'LSDB'
+invalid literal for int() with base 10: 'LSDB'
+http://www.ncbi.nlm.nih.gov/pubmed/17304050
+http://www.ncbi.nlm.nih.gov/pubmed/16981987
+invalid literal for int() with base 10: 'LSDB'
+http://www.ncbi.nlm.nih.gov/pubmed/11112665
+http://www.ncbi.nlm.nih.gov/pubmed/12015165
+http://www.ncbi.nlm.nih.gov/pubmed/10570911
+http://www.ncbi.nlm.nih.gov/pubmed/9285776
+http://www.ncbi.nlm.nih.gov/pubmed/17304050
+http://www.ncbi.nlm.nih.gov/pubmed/11112665
+http://www.ncbi.nlm.nih.gov/pubmed/11112665
+http://www.ncbi.nlm.nih.gov/pubmed/22791573
+http://www.ncbi.nlm.nih.gov/pubmed/17304050
+http://www.ncbi.nlm.nih.gov/pubmed/12111193
+http://www.ncbi.nlm.nih.gov/pubmed/10205261
+http://www.ncbi.nlm.nih.gov/pubmed/15595939
+http://www.ncbi.nlm.nih.gov/pubmed/16114042
+http://www.ncbi.nlm.nih.gov/pubmed/17304050
+invalid literal for int() with base 10: 'LSDB'
+http://www.ncbi.nlm.nih.gov/pubmed/21811971
+http://www.ncbi.nlm.nih.gov/pubmed/22490766
+invalid literal for int() with base 10: 'LSDB'
+http://www.ncbi.nlm.nih.gov/pubmed/10533067
+invalid literal for int() with base 10: 'LSDB'
+invalid literal for int() with base 10: 'LSDB'
+http://www.ncbi.nlm.nih.gov/pubmed/10942116
+http://www.ncbi.nlm.nih.gov/pubmed/24737435
+http://www.ncbi.nlm.nih.gov/pubmed/12015165
+http://www.ncbi.nlm.nih.gov/pubmed/11112665
+http://www.ncbi.nlm.nih.gov/pubmed/23389244
+http://www.ncbi.nlm.nih.gov/pubmed/10735580
+http://www.ncbi.nlm.nih.gov/pubmed/23389244
+http://www.ncbi.nlm.nih.gov/pubmed/11112665
+http://www.ncbi.nlm.nih.gov/pubmed/15798777
+http://www.ncbi.nlm.nih.gov/pubmed/17304050
+invalid literal for int() with base 10: 'LSDB'
+http://www.ncbi.nlm.nih.gov/pubmed/17304050
+http://www.ncbi.nlm.nih.gov/pubmed/11112665
+http://www.ncbi.nlm.nih.gov/pubmed/17304050
+http://www.ncbi.nlm.nih.gov/pubmed/22490766
+http://www.ncbi.nlm.nih.gov/pubmed/15798777
+http://www.ncbi.nlm.nih.gov/pubmed/10533067
+invalid literal for int() with base 10: 'LSDB'
+http://www.ncbi.nlm.nih.gov/pubmed/10533066
+http://www.ncbi.nlm.nih.gov/pubmed/10533066
+http://www.ncbi.nlm.nih.gov/pubmed/9328481
+http://www.ncbi.nlm.nih.gov/pubmed/11112665
+invalid literal for int() with base 10: 'LSDB'
+http://www.ncbi.nlm.nih.gov/pubmed/16114042
+http://www.ncbi.nlm.nih.gov/pubmed/15712319
+http://www.ncbi.nlm.nih.gov/pubmed/11112665
+http://www.ncbi.nlm.nih.gov/pubmed/10570911
+invalid literal for int() with base 10: 'LSDB'
+http://www.ncbi.nlm.nih.gov/pubmed/16981987
+invalid literal for int() with base 10: 'LSDB'
+http://www.ncbi.nlm.nih.gov/pubmed/11112665
+invalid literal for int() with base 10: 'LSDB'
+http://www.ncbi.nlm.nih.gov/pubmed/10570911
+invalid literal for int() with base 10: 'LSDB'
+http://www.ncbi.nlm.nih.gov/pubmed/17304050
+http://www.ncbi.nlm.nih.gov/pubmed/15798777
+http://www.ncbi.nlm.nih.gov/pubmed/17304050
+invalid literal for int() with base 10: 'LSDB'
+http://www.ncbi.nlm.nih.gov/pubmed/17304050
+http://www.ncbi.nlm.nih.gov/pubmed/11112665
+http://www.ncbi.nlm.nih.gov/pubmed/11688396
+http://www.ncbi.nlm.nih.gov/pubmed/10533067
+http://www.ncbi.nlm.nih.gov/pubmed/15798777
+http://www.ncbi.nlm.nih.gov/pubmed/19254590
+http://www.ncbi.nlm.nih.gov/pubmed/15798777
+http://www.ncbi.nlm.nih.gov/pubmed/10735580
+http://www.ncbi.nlm.nih.gov/pubmed/10205261
+http://www.ncbi.nlm.nih.gov/pubmed/10533066
+http://www.ncbi.nlm.nih.gov/pubmed/17304050
+http://www.ncbi.nlm.nih.gov/pubmed/10735580
+http://www.ncbi.nlm.nih.gov/pubmed/16114042
+http://www.ncbi.nlm.nih.gov/pubmed/23254740
+http://www.ncbi.nlm.nih.gov/pubmed/10533066
+http://www.ncbi.nlm.nih.gov/pubmed/10533066
+http://www.ncbi.nlm.nih.gov/pubmed/9829910
+invalid literal for int() with base 10: 'LSDB'
+http://www.ncbi.nlm.nih.gov/pubmed/20952379
+http://www.ncbi.nlm.nih.gov/pubmed/20952379
+http://www.ncbi.nlm.nih.gov/pubmed/21609947
+http://www.ncbi.nlm.nih.gov/pubmed/21368912
+http://www.ncbi.nlm.nih.gov/pubmed/20952379
+http://www.ncbi.nlm.nih.gov/pubmed/20534762
+http://www.ncbi.nlm.nih.gov/pubmed/11788671
+http://www.ncbi.nlm.nih.gov/pubmed/19244275
+http://www.ncbi.nlm.nih.gov/pubmed/19244275
+http://www.ncbi.nlm.nih.gov/pubmed/20718767
+http://www.ncbi.nlm.nih.gov/pubmed/11716047
+http://www.ncbi.nlm.nih.gov/pubmed/9589691
+http://www.ncbi.nlm.nih.gov/pubmed/19700862
+http://www.ncbi.nlm.nih.gov/pubmed/22427576
+http://www.ncbi.nlm.nih.gov/pubmed/20159112
+http://www.ncbi.nlm.nih.gov/pubmed/22427576
+http://www.ncbi.nlm.nih.gov/pubmed/21258341
+http://www.ncbi.nlm.nih.gov/pubmed/21258341
+http://www.ncbi.nlm.nih.gov/pubmed/23559409
+http://www.ncbi.nlm.nih.gov/pubmed/21258341
+http://www.ncbi.nlm.nih.gov/pubmed/21258341
+http://www.ncbi.nlm.nih.gov/pubmed/20176027
+http://www.ncbi.nlm.nih.gov/pubmed/23302111
+http://www.ncbi.nlm.nih.gov/pubmed/21120949
+http://www.ncbi.nlm.nih.gov/pubmed/20176027
+http://www.ncbi.nlm.nih.gov/pubmed/21120949
+http://www.ncbi.nlm.nih.gov/pubmed/21120949
+http://www.ncbi.nlm.nih.gov/pubmed/21120949
+http://www.ncbi.nlm.nih.gov/pubmed/24292712
+http://www.ncbi.nlm.nih.gov/pubmed/23830146
+http://www.ncbi.nlm.nih.gov/pubmed/24417819
+http://www.ncbi.nlm.nih.gov/pubmed/24417819
+http://www.ncbi.nlm.nih.gov/pubmed/21052717
+http://www.ncbi.nlm.nih.gov/pubmed/22773737
+http://www.ncbi.nlm.nih.gov/pubmed/16308660
+http://www.ncbi.nlm.nih.gov/pubmed/16877420
+http://www.ncbi.nlm.nih.gov/pubmed/16308660
+http://www.ncbi.nlm.nih.gov/pubmed/20451172
+http://www.ncbi.nlm.nih.gov/pubmed/23861362
+http://www.ncbi.nlm.nih.gov/pubmed/23975875
+http://www.ncbi.nlm.nih.gov/pubmed/23975875
+http://www.ncbi.nlm.nih.gov/pubmed/23418287
+http://www.ncbi.nlm.nih.gov/pubmed/23975875
+http://www.ncbi.nlm.nih.gov/pubmed/23975875
+http://www.ncbi.nlm.nih.gov/pubmed/22335739
+http://www.ncbi.nlm.nih.gov/pubmed/22335739
+http://www.ncbi.nlm.nih.gov/pubmed/22335739
+http://www.ncbi.nlm.nih.gov/pubmed/22335739
+http://www.ncbi.nlm.nih.gov/pubmed/22335739
+http://www.ncbi.nlm.nih.gov/pubmed/22335739
+http://www.ncbi.nlm.nih.gov/pubmed/22335739
+http://www.ncbi.nlm.nih.gov/pubmed/22335739
+http://www.ncbi.nlm.nih.gov/pubmed/22335739
+http://www.ncbi.nlm.nih.gov/pubmed/22335739
+http://www.ncbi.nlm.nih.gov/pubmed/22335739
+http://www.ncbi.nlm.nih.gov/pubmed/22335739
+http://www.ncbi.nlm.nih.gov/pubmed/22335739
+http://www.ncbi.nlm.nih.gov/pubmed/22335739
+http://www.ncbi.nlm.nih.gov/pubmed/22335739
+http://www.ncbi.nlm.nih.gov/pubmed/22335739
+http://www.ncbi.nlm.nih.gov/pubmed/24105469
+http://www.ncbi.nlm.nih.gov/pubmed/9463307
+http://www.ncbi.nlm.nih.gov/pubmed/9463307
+http://www.ncbi.nlm.nih.gov/pubmed/19440741
+http://www.ncbi.nlm.nih.gov/pubmed/9270601
+http://www.ncbi.nlm.nih.gov/pubmed/18055821
+http://www.ncbi.nlm.nih.gov/pubmed/24154662
+http://www.ncbi.nlm.nih.gov/pubmed/23847139
+http://www.ncbi.nlm.nih.gov/pubmed/9660588
+http://www.ncbi.nlm.nih.gov/pubmed/9462751
+http://www.ncbi.nlm.nih.gov/pubmed/9660588
+http://www.ncbi.nlm.nih.gov/pubmed/9462750
+http://www.ncbi.nlm.nih.gov/pubmed/18055821
+http://www.ncbi.nlm.nih.gov/pubmed/22865819
+http://www.ncbi.nlm.nih.gov/pubmed/14757860
+http://www.ncbi.nlm.nih.gov/pubmed/9924029
+http://www.ncbi.nlm.nih.gov/pubmed/19523753
+http://www.ncbi.nlm.nih.gov/pubmed/15781193
+http://www.ncbi.nlm.nih.gov/pubmed/22618301
+http://www.ncbi.nlm.nih.gov/pubmed/21933806
+http://www.ncbi.nlm.nih.gov/pubmed/21933806
+http://www.ncbi.nlm.nih.gov/pubmed/10852545
+http://www.ncbi.nlm.nih.gov/pubmed/9924029
+http://www.ncbi.nlm.nih.gov/pubmed/19056268
+http://www.ncbi.nlm.nih.gov/pubmed/12529715
+http://www.ncbi.nlm.nih.gov/pubmed/9924029
+http://www.ncbi.nlm.nih.gov/pubmed/23504663
+http://www.ncbi.nlm.nih.gov/pubmed/13680365
+http://www.ncbi.nlm.nih.gov/pubmed/13680365
+http://www.ncbi.nlm.nih.gov/pubmed/9259202
+http://www.ncbi.nlm.nih.gov/pubmed/8217557
+http://www.ncbi.nlm.nih.gov/pubmed/23504663
+http://www.ncbi.nlm.nih.gov/pubmed/15146472
+http://www.ncbi.nlm.nih.gov/pubmed/18821858
+http://www.ncbi.nlm.nih.gov/pubmed/8217557
+http://www.ncbi.nlm.nih.gov/pubmed/9259202
+http://www.ncbi.nlm.nih.gov/pubmed/16767664
+http://www.ncbi.nlm.nih.gov/pubmed/18821858
+http://www.ncbi.nlm.nih.gov/pubmed/18179898
+http://www.ncbi.nlm.nih.gov/pubmed/20817676
+http://www.ncbi.nlm.nih.gov/pubmed/22865819
+http://www.ncbi.nlm.nih.gov/pubmed/18497339
+http://www.ncbi.nlm.nih.gov/pubmed/16100729
+http://www.ncbi.nlm.nih.gov/pubmed/8988171
+http://www.ncbi.nlm.nih.gov/pubmed/18487518
+http://www.ncbi.nlm.nih.gov/pubmed/23200864
+http://www.ncbi.nlm.nih.gov/pubmed/19058315
+http://www.ncbi.nlm.nih.gov/pubmed/18553553
+http://www.ncbi.nlm.nih.gov/pubmed/24599544
+http://www.ncbi.nlm.nih.gov/pubmed/16311597
+http://www.ncbi.nlm.nih.gov/pubmed/16311597
+http://www.ncbi.nlm.nih.gov/pubmed/24599544
+http://www.ncbi.nlm.nih.gov/pubmed/19006206
+http://www.ncbi.nlm.nih.gov/pubmed/24599544
+http://www.ncbi.nlm.nih.gov/pubmed/23778732
+http://www.ncbi.nlm.nih.gov/pubmed/24599544
+http://www.ncbi.nlm.nih.gov/pubmed/24599544
+http://www.ncbi.nlm.nih.gov/pubmed/16311597
+http://www.ncbi.nlm.nih.gov/pubmed/9769326
+http://www.ncbi.nlm.nih.gov/pubmed/9497253
+http://www.ncbi.nlm.nih.gov/pubmed/15712364
+http://www.ncbi.nlm.nih.gov/pubmed/9497253
+http://www.ncbi.nlm.nih.gov/pubmed/15712364
+http://www.ncbi.nlm.nih.gov/pubmed/11855932
+http://www.ncbi.nlm.nih.gov/pubmed/19752526
+http://www.ncbi.nlm.nih.gov/pubmed/15855727
+http://www.ncbi.nlm.nih.gov/pubmed/18622261
+http://www.ncbi.nlm.nih.gov/pubmed/18622261
+http://www.ncbi.nlm.nih.gov/pubmed/18622261
+http://www.ncbi.nlm.nih.gov/pubmed/21868615
+http://www.ncbi.nlm.nih.gov/pubmed/21248318
+http://www.ncbi.nlm.nih.gov/pubmed/19023578
+http://www.ncbi.nlm.nih.gov/pubmed/24470399
+http://www.ncbi.nlm.nih.gov/pubmed/18492689
+http://www.ncbi.nlm.nih.gov/pubmed/21248318
+http://www.ncbi.nlm.nih.gov/pubmed/14622600
+http://www.ncbi.nlm.nih.gov/pubmed/21152410
+http://www.ncbi.nlm.nih.gov/pubmed/16278825
+http://www.ncbi.nlm.nih.gov/pubmed/15466010
+http://www.ncbi.nlm.nih.gov/pubmed/16825436
+http://www.ncbi.nlm.nih.gov/pubmed/24470399
+http://www.ncbi.nlm.nih.gov/pubmed/24470399
+http://www.ncbi.nlm.nih.gov/pubmed/20015884
+http://www.ncbi.nlm.nih.gov/pubmed/23709445
+
+
+PS:
+
+Read file <data/skip/scraping_pubmed_chunks/logs/chunk29.e> for stderr output of this job.
+

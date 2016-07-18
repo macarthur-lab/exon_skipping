@@ -1,0 +1,278 @@
+CHROM	POS	REF	ALT	Consequence	donorDist	acceptorDist	STRAND	Feature	tag	location	pmid	type	url	reviewer	status	notes
+12	121434064	G	T	splice_acceptor_variant	1856	-1	1	ENST00000257555	DM	-1	19150152	as	http://www.ncbi.nlm.nih.gov/pubmed/19150152	db	discard	also causes cryptic splice activation
+14	65234018	C	A	splice_region_variant&intron_variant	3	-499	-1	ENST00000389722	DM	3	2056132	ds	http://www.ncbi.nlm.nih.gov/pubmed/2056132	db	verified	
+11	2604778	A	G	splice_region_variant&intron_variant	3	-1664	1	ENST00000155840	DM	3	21810471	ds	http://www.ncbi.nlm.nih.gov/pubmed/21810471	db	verified	
+12	48380613	C	A	splice_region_variant&intron_variant	5	-387	-1	ENST00000380518	DM	5	7847372	ds	http://www.ncbi.nlm.nih.gov/pubmed/7847372	db	verified	features an atrociously scanned gel image
+X	18923875	C	A	splice_donor_variant	1	-4154	-1	ENST00000379942	DM	1	7711737	ds	http://www.ncbi.nlm.nih.gov/pubmed/7711737	db	verified	
+20	48127563	A	G	splice_donor_variant	2	-2962	-1	ENST00000244043	DM	2	12372404	ds	http://www.ncbi.nlm.nih.gov/pubmed/12372404	db	verified	
+5	78181405	A	T	splice_donor_variant	2	-46156	-1	ENST00000264914	DM	2	17643332	ds	http://www.ncbi.nlm.nih.gov/pubmed/17643332	db	verified	
+8	141034178	T	G	splice_acceptor_variant	197380	-2	-1	ENST00000389328	DM	-2	22549410	as	http://www.ncbi.nlm.nih.gov/pubmed/22549410	db	verified	
+1	183192459	G	T	missense_variant&splice_region_variant	-1	190	1	ENST00000264144	DM	-1	7861013	ds	http://www.ncbi.nlm.nih.gov/pubmed/7861013	db	verified	
+12	44171552	G	T	splice_region_variant&intron_variant	5	-444	1	ENST00000448290	DM	5	17878374	ds	http://www.ncbi.nlm.nih.gov/pubmed/17878374	db	verified	
+11	112101405	G	A	splice_region_variant&synonymous_variant	-1	57	1	ENST00000280362	DM	-1	10319579	ds	http://www.ncbi.nlm.nih.gov/pubmed/10319579	db	verified	
+6	49574634	C	A	missense_variant&splice_region_variant	-74	1	-1	ENST00000371175	DM	1	10467273	as	http://www.ncbi.nlm.nih.gov/pubmed/10467273	db	verified	
+20	61449869	G	A	splice_acceptor_variant	882	-1	1	ENST00000343916	DM	-1	10678658	as	http://www.ncbi.nlm.nih.gov/pubmed/10678658	db	verified	
+2	32372328	G	T	splice_donor_variant	1	-7115	1	ENST00000315285	DM	1	11039577	ds	http://www.ncbi.nlm.nih.gov/pubmed/11039577	db	verified	
+1	158626459	A	C	intron_variant	808	-13	-1	ENST00000368147	DM	-13	9192783	as	http://www.ncbi.nlm.nih.gov/pubmed/9192783	db	discard	creates a new acceptor site in addition to causing exon skipping
+11	118963235	T	C	splice_donor_variant	2	-233	1	ENST00000278715	DM	2	11857754	ds	http://www.ncbi.nlm.nih.gov/pubmed/11857754	db	discard	predicted only
+20	61449868	A	T	splice_acceptor_variant	881	-2	1	ENST00000343916	DM	-2	10090888	as	http://www.ncbi.nlm.nih.gov/pubmed/10090888	db	verified	
+18	55238624	C	G	missense_variant&splice_region_variant	-1	149	-1	ENST00000382873	DM	-1	8781532	ds	http://www.ncbi.nlm.nih.gov/pubmed/8781532	db	discard	can't access full article
+X	77268612	A	T	splice_region_variant&intron_variant	3	-1547	1	ENST00000341514	DM	3	9467005	ds	http://www.ncbi.nlm.nih.gov/pubmed/9467005	db	verified	controls also show some exon-skipping, albeit in lower levels
+X	148571972	C	T	splice_acceptor_variant	5905	-1	-1	ENST00000422081	DM	-1	17284421	as	http://www.ncbi.nlm.nih.gov/pubmed/17284421	db	discard	
+X	148571972	C	T	splice_acceptor_variant	5905	-1	-1	ENST00000340855	DM	-1	17284421	as	http://www.ncbi.nlm.nih.gov/pubmed/17284421	db	discard	duplicate of above
+9	135171259	C	T	missense_variant&splice_region_variant	-1	157	-1	ENST00000224140	DM	-1	18350359	ds	http://www.ncbi.nlm.nih.gov/pubmed/18350359	db	verified	
+8	63978463	C	T	splice_region_variant&synonymous_variant	-1	194	-1	ENST00000260116	DM	-1	9270601	ds	http://www.ncbi.nlm.nih.gov/pubmed/9270601	db	verified	controls also show some exon-skipping, albeit in lower levels
+2	202609154	T	A	splice_acceptor_variant	2135	-2	-1	ENST00000264276	DM	-2	18810511	as	http://www.ncbi.nlm.nih.gov/pubmed/18810511	db	verified	
+9	35078601	C	G	splice_donor_variant	1	-261	-1	ENST00000378643	DM	1	10807541	ds	http://www.ncbi.nlm.nih.gov/pubmed/10807541	db	verified	Can cause skipping of one or two exons; The paper also mentions another interesting nonsense variant which results in usage of an upstream cryptic splice donor site, effectively skipping over the premature stop codon. The mechanism for this is unclear: could be that NMD of the transcript allows the alternative isoform to reach detectable levels, or perhaps the variant itself affects splicing, despite not influencing either the authentic or cryptic splice site
+5	42713528	C	A	splice_region_variant&intron_variant	2054	-3	1	ENST00000230882	DM	-3	19339792	as	http://www.ncbi.nlm.nih.gov/pubmed/19339792	dm	discard	predicted only - no validation
+8	133882073	T	G	splice_donor_variant	2	-1520	1	ENST00000220616	DM	2	19837936	ds	http://www.ncbi.nlm.nih.gov/pubmed/19837936	db	verified	
+6	51948056	G	T	splice_region_variant&intron_variant	1624	-3	-1	ENST00000371117	DM	-3	16897190	as	http://www.ncbi.nlm.nih.gov/pubmed/16897190	db	verified	
+10	104591260	C	T	splice_region_variant&intron_variant	5	-518	-1	ENST00000369887	DM	5	9177409	ds	http://www.ncbi.nlm.nih.gov/pubmed/9177409	db	verified	
+21	47410742	T	C	splice_donor_variant	2	-151	1	ENST00000361866	DM	2	10329467	ds	http://www.ncbi.nlm.nih.gov/pubmed/10329467	db	verified	
+8	38003481	C	G	missense_variant&splice_region_variant	-1	185	-1	ENST00000276449	DM	-1	10566637	ds	http://www.ncbi.nlm.nih.gov/pubmed/10566637	db	verified	
+18	28923412	G	T	splice_acceptor_variant	3424	-1	1	ENST00000257192	DM	-1	17194569	as	http://www.ncbi.nlm.nih.gov/pubmed/17194569	db	discard	predicted only
+5	42713621	G	C	missense_variant&splice_region_variant	-1	91	1	ENST00000230882	DM	-1	8626815	ds	http://www.ncbi.nlm.nih.gov/pubmed/8626815	db	discard	can't access full article
+5	42713525	T	A	splice_region_variant&intron_variant	2051	-6	1	ENST00000230882	DM	-6	19812236	as	http://www.ncbi.nlm.nih.gov/pubmed/19812236	dm	verified	
+X	38182652	C	T	missense_variant&splice_region_variant	-1	126	-1	ENST00000378505	DM	-1	15364249	ds	http://www.ncbi.nlm.nih.gov/pubmed/15364249	db	verified	
+3	37059094	A	G	splice_region_variant&intron_variant	4	-2707	1	ENST00000231790	DM	4	17653898	ds	http://www.ncbi.nlm.nih.gov/pubmed/17653898	dm	verified	
+1	183187524	G	A	splice_acceptor_variant	2801	-1	1	ENST00000264144	DM	-1	11564184	as	http://www.ncbi.nlm.nih.gov/pubmed/11564184	db	discard	also causes activation of a cryptic acceptor site
+12	66786456	C	G	splice_donor_variant	1	-174	-1	ENST00000398016	DM	1	22510445	ds	http://www.ncbi.nlm.nih.gov/pubmed/22510445	db	verified	
+14	20940636	G	T	missense_variant&splice_region_variant	-1	170	1	ENST00000361505	DM	-1	1560016	ds	http://www.ncbi.nlm.nih.gov/pubmed/1560016	db	verified	
+16	2149773	T	A	splice_acceptor_variant	89	-2	-1	ENST00000262304	DM	-2	11216660	as	http://www.ncbi.nlm.nih.gov/pubmed/11216660	db	discard	predicted only
+12	51386593	C	G	missense_variant&splice_region_variant	-1	120	-1	ENST00000394904	DM	-1	15459009	ds	http://www.ncbi.nlm.nih.gov/pubmed/15459009	db	verified	skipping occurs normally at low rates, the mutation greatly exagerrates the level of skipping
+11	112100924	T	A	splice_region_variant&intron_variant	1528	-7	1	ENST00000280362	DM	-7	8841415	as	http://www.ncbi.nlm.nih.gov/pubmed/8841415	db	verified	
+2	238257251	C	T	splice_region_variant&intron_variant	5	-224	-1	ENST00000295550	DM	5	11992252	ds	http://www.ncbi.nlm.nih.gov/pubmed/11992252	db	verified	typo in abstract has A->G when it should be G->A
+7	31016937	G	A	splice_region_variant&synonymous_variant	-1	42	1	ENST00000326139	DM	-1	21044116	ds	http://www.ncbi.nlm.nih.gov/pubmed/21044116	db	verified	in vitro splicing assay
+3	48619343	C	T	splice_donor_variant	1	-151	-1	ENST00000328333	DM	1	22515571	ds	http://www.ncbi.nlm.nih.gov/pubmed/22515571	db	discard	predicted only
+2	26417437	A	C	splice_donor_variant	2	-796	-1	ENST00000380649	DM	2	17143551	ds	http://www.ncbi.nlm.nih.gov/pubmed/17143551	db	verified	
+X	77298933	G	A	splice_donor_variant	1	-2034	1	ENST00000341514	DM	1	15693857	ds	http://www.ncbi.nlm.nih.gov/pubmed/15693857	db	discard	don't provide any direct evidence, cite another paper which doesn't mention the mutation in question
+3	48921567	A	C	intron_variant	7846	-10	-1	ENST00000319017	DM	-10	10697964	as	http://www.ncbi.nlm.nih.gov/pubmed/10697964	db	verified	propose that the mutation disrupts the branch point sequence
+19	918543	G	A	splice_acceptor_variant	797	-1	1	ENST00000234371	DM	-1	22619348	as	http://www.ncbi.nlm.nih.gov/pubmed/22619348	db	verified	
+2	219677473	G	A	splice_donor_variant	1	-174	1	ENST00000258415	DM	1	9254865	ds	http://www.ncbi.nlm.nih.gov/pubmed/9254865	db	verified	
+2	189861227	G	T	splice_region_variant&intron_variant	5	-664	1	ENST00000304636	DM	5	1672129	ds	http://www.ncbi.nlm.nih.gov/pubmed/1672129	db	verified	
+17	42461955	T	C	splice_acceptor_variant	361	-2	-1	ENST00000262407	DM	-2	16463284	as	http://www.ncbi.nlm.nih.gov/pubmed/16463284	db	discard	couldn't find mention of variant in paper
+16	67203255	A	G	splice_region_variant&intron_variant	4	-279	1	ENST00000264009	DM	4	15277496	ds	http://www.ncbi.nlm.nih.gov/pubmed/15277496	db	verified	
+9	123785683	T	C	missense_variant&splice_region_variant	-2	115	-1	ENST00000223642	DM	-2	15778377	ds	http://www.ncbi.nlm.nih.gov/pubmed/15778377	db	verified	
+3	37038099	T	A	intron_variant	2945	-11	1	ENST00000231790	DM	-11	11066084	as	http://www.ncbi.nlm.nih.gov/pubmed/11066084	dm	verified	can also result in skipping of >1 exon
+8	38271808	C	G	splice_acceptor_variant	269	-1	-1	ENST00000425967	DM	-1	20079901	as	http://www.ncbi.nlm.nih.gov/pubmed/20079901	db	verified	The absence of exon 16 was verified at the cDNA level.
+1	205767943	C	A	missense_variant&splice_region_variant	-147	1	-1	ENST00000367137	DM	1	23661805	as	http://www.ncbi.nlm.nih.gov/pubmed/23661805	db	verified	
+18	55218549	T	A	stop_gained&splice_region_variant	-3	58	-1	ENST00000382873	DM	-3	8481408	ds	http://www.ncbi.nlm.nih.gov/pubmed/8481408	dm	verified	
+X	100608181	C	A	splice_donor_variant	1	-3237	-1	ENST00000308731	DM	1	9260159	ds	http://www.ncbi.nlm.nih.gov/pubmed/9260159	db	discard	predicted only
+1	40780018	A	C	splice_region_variant&intron_variant	6	-79	-1	ENST00000372748	DM	6	10842095	ds	http://www.ncbi.nlm.nih.gov/pubmed/10842095	db	verified	
+17	61995371	A	C	splice_region_variant&intron_variant	6	-87	-1	ENST00000323322	DM	6	11914025	ds	http://www.ncbi.nlm.nih.gov/pubmed/11914025	db	verified	
+1	183536338	C	T	splice_donor_variant	1	-215	-1	ENST00000367535	DM	1	8781442	ds	http://www.ncbi.nlm.nih.gov/pubmed/8781442	db	verified	causes skipping of 2 exons
+19	7125294	C	T	splice_region_variant&synonymous_variant	-1	245	-1	ENST00000302850	DM	-1	10844410	ds	http://www.ncbi.nlm.nih.gov/pubmed/10844410	db	verified	
+1	209797347	T	C	splice_acceptor_variant	1646	-2	-1	ENST00000391911	DM	-2	10951252	as	http://www.ncbi.nlm.nih.gov/pubmed/10951252	db	discard	validation experiment is inconclusive
+4	145040839	C	T	missense_variant&splice_region_variant	-1	96	-1	ENST00000360771	FP	-1	8245024	ds	http://www.ncbi.nlm.nih.gov/pubmed/8245024	db	verified	can cause skipping of multiple exons
+19	12759218	T	C	splice_acceptor_variant	732	-2	-1	ENST00000456935	DM	-2	14765545	as	http://www.ncbi.nlm.nih.gov/pubmed/14765545	db	discard	don't specifically describe validation
+3	98300251	C	T	missense_variant&splice_region_variant	-1	105	-1	ENST00000264193	DM	-1	7987309	ds	http://www.ncbi.nlm.nih.gov/pubmed/7987309	db	verified	
+X	153790004	G	A	splice_region_variant&intron_variant	5	-1021	1	ENST00000369609	DM	5	16333836	ds	http://www.ncbi.nlm.nih.gov/pubmed/16333836	db	verified	causes skipping of 3 exons
+1	40780024	C	G	splice_region_variant&synonymous_variant	-1	36	-1	ENST00000372748	DM	-1	12244547	ds	http://www.ncbi.nlm.nih.gov/pubmed/12244547	db	discard	predicted only
+4	149041441	T	G	splice_acceptor_variant	32179	-2	-1	ENST00000358102	DM	-2	19912655	as	http://www.ncbi.nlm.nih.gov/pubmed/19912655	db	verified	
+20	57485004	A	G	splice_acceptor_variant	145	-2	1	ENST00000371100	DM	-2	24651309	as	http://www.ncbi.nlm.nih.gov/pubmed/24651309	db	verified	somewhat shitty blot, also mini-gene assay demonstrated intron retention while RT-PCR of RNA from blood cells showed exon skipping
+7	65439512	C	T	splice_donor_variant	1	-84	-1	ENST00000304895	DM	1	9099834	ds	http://www.ncbi.nlm.nih.gov/pubmed/9099834	db	verified	causes skipping of multiple exons, can also cause intron retention
+14	65234377	T	C	splice_region_variant&intron_variant	4	-307	-1	ENST00000389722	DM	4	1840591	ds	http://www.ncbi.nlm.nih.gov/pubmed/1840591	db	verified	
+4	155533165	C	T	splice_region_variant&intron_variant	5	-115	-1	ENST00000336098	DM	5	11001903	ds	http://www.ncbi.nlm.nih.gov/pubmed/11001903	db	verified	
+8	17917077	T	C	splice_region_variant&intron_variant	4	-104	-1	ENST00000381733	DM	4	23707712	ds	http://www.ncbi.nlm.nih.gov/pubmed/23707712	sa, db	verified	appears that this allele results in absence of detectable mRNA? eh, good enough for me
+12	48383543	C	T	splice_donor_variant	1	-479	-1	ENST00000380518	DM	1	9675039	ds	http://www.ncbi.nlm.nih.gov/pubmed/9675039	sa	verified	results in skipping of exon 15
+14	65234578	C	G	splice_acceptor_variant	1174	-1	-1	ENST00000389722	DM	-1	8547102	as	http://www.ncbi.nlm.nih.gov/pubmed/8547102	sa	verified	skipping of one exon
+14	20942735	G	A	splice_donor_variant	1	-197	1	ENST00000361505	DM	1	11453975	ds	http://www.ncbi.nlm.nih.gov/pubmed/11453975	sa	verified	skipping of exon 3
+16	68719107	G	T	splice_acceptor_variant	380	-1	1	ENST00000264012	DM	-1	19076794	as	http://www.ncbi.nlm.nih.gov/pubmed/19076794	sa	discard	predicted only
+X	119575584	C	G	splice_donor_variant	1	-13103	-1	ENST00000434600	DM	1	18990578	ds	http://www.ncbi.nlm.nih.gov/pubmed/18990578	sa	discard	caused skipping of one or two exons or a 15bp deletion
+10	124797366	A	G	splice_region_variant&intron_variant	3	-2616	1	ENST00000358776	DM	3	12837870	ds	http://www.ncbi.nlm.nih.gov/pubmed/12837870	sa	verified	skipping of exon 10
+17	42453087	G	C	splice_region_variant&intron_variant	114	-3	-1	ENST00000262407	DM	-3	1317725	as	http://www.ncbi.nlm.nih.gov/pubmed/1317725	sa	verified	skipping of exon 26
+1	100676250	C	T	splice_region_variant&synonymous_variant	-1	78	-1	ENST00000370132	DM	-1	1547285	ds	http://www.ncbi.nlm.nih.gov/pubmed/1547285	sa	verified	skipping of either exon 8 or exons 8-10
+3	193372817	G	A	splice_donor_variant	1	-2052	1	ENST00000361908	DM	1	16006781	ds	http://www.ncbi.nlm.nih.gov/pubmed/16006781	db	discard	causes exon extension
+15	89862456	T	A	splice_region_variant&intron_variant	3	-126	-1	ENST00000268124	DM	3	21670405	ds	http://www.ncbi.nlm.nih.gov/pubmed/21670405	db	verified	
+17	61995372	C	G	splice_region_variant&intron_variant	5	-88	-1	ENST00000323322	DM	5	10629163	ds	http://www.ncbi.nlm.nih.gov/pubmed/10629163	db	verified	
+10	89717778	T	G	splice_donor_variant	2	-2873	1	ENST00000371953	DM	2	9600246	ds	http://www.ncbi.nlm.nih.gov/pubmed/9600246	db	verified	
+1	64104474	A	T	splice_region_variant&intron_variant	3	-9714	1	ENST00000371083	DM	3	22976764	ds	http://www.ncbi.nlm.nih.gov/pubmed/22976764	db	verified	
+3	37053309	A	C	splice_acceptor_variant	2913	-2	1	ENST00000231790	DM	-2	16830052	as	http://www.ncbi.nlm.nih.gov/pubmed/16830052	db	verified	
+1	21894739	A	G	missense_variant&splice_region_variant	-2	143	1	ENST00000374840	DM	-2	17922851	ds	http://www.ncbi.nlm.nih.gov/pubmed/17922851	db	verified	
+10	91005432	C	T	splice_donor_variant	1	-17277	-1	ENST00000336233	DM	1	22227072	ds	http://www.ncbi.nlm.nih.gov/pubmed/22227072	db	discard	predicted only
+6	74348224	T	C	splice_acceptor_variant	3190	-2	-1	ENST00000355773	DM	-2	23900835	as	http://www.ncbi.nlm.nih.gov/pubmed/23900835	db	verified	
+7	107341641	G	A	splice_region_variant&synonymous_variant	-1	96	1	ENST00000265715	DM	-1	23246836	ds	http://www.ncbi.nlm.nih.gov/pubmed/23246836	db	verified	
+11	32450171	G	T	splice_region_variant&intron_variant	6075	-6	-1	ENST00000332351	DM	-6	15591903	as	http://www.ncbi.nlm.nih.gov/pubmed/15591903	db	discard	predicted only
+12	103237560	G	A	splice_region_variant&intron_variant	554	-3	-1	ENST00000553106	DM	-3	8098245	as	http://www.ncbi.nlm.nih.gov/pubmed/8098245	db	verified	
+15	72647900	C	T	missense_variant&splice_region_variant	-1	66	-1	ENST00000268097	DM	-1	12689701	ds	http://www.ncbi.nlm.nih.gov/pubmed/12689701	db	discard	no validation, cite another mutation affecting the same splice site which results in exon skipping
+15	72647900	C	T	splice_region_variant&non_coding_transcript_exon_variant&non_coding_transcript_variant	-1	66	-1	ENST00000379915	DM	-1	12689701	ds	http://www.ncbi.nlm.nih.gov/pubmed/12689701	db	discard	duplicate of above
+2	84686294	C	G	splice_region_variant&intron_variant	3	-9418	-1	ENST00000393868	DM	3	20693550	ds	http://www.ncbi.nlm.nih.gov/pubmed/20693550	db	verified	
+8	134266839	C	T	splice_acceptor_variant	2181	-1	-1	ENST00000414097	DM	-1	12872253	as	http://www.ncbi.nlm.nih.gov/pubmed/12872253	db	verified	
+7	24745799	T	C	splice_region_variant&intron_variant	4	-3347	-1	ENST00000342947	DM	4	17868390	ds	http://www.ncbi.nlm.nih.gov/pubmed/17868390	db	verified	
+5	112164553	G	T	missense_variant&splice_region_variant&NMD_transcript_variant	-117	1	1	ENST00000520401	DM	1	22987206	as	http://www.ncbi.nlm.nih.gov/pubmed/22987206	db	verified	lots of mutations discussed in this paper
+5	112164553	G	T	missense_variant&splice_region_variant	-117	1	1	ENST00000457016	DM	1	22987206	as	http://www.ncbi.nlm.nih.gov/pubmed/22987206	db	discard	duplicate of above
+9	123737057	C	T	splice_region_variant&synonymous_variant	-1	153	-1	ENST00000223642	DM	-1	19375167	ds	http://www.ncbi.nlm.nih.gov/pubmed/19375167	db	verified	
+7	143042856	G	T	splice_donor_variant	1	-377	1	ENST00000343257	DM	1	15116370	ds	http://www.ncbi.nlm.nih.gov/pubmed/15116370	db	verified	
+11	124748331	A	C	missense_variant&splice_region_variant	-2	138	1	ENST00000397801	DM	-2	21850172	ds	http://www.ncbi.nlm.nih.gov/pubmed/21850172	db	verified	
+7	94248070	C	T	missense_variant&splice_region_variant	-1	199	-1	ENST00000445866	DM	-1	17230465	ds	http://www.ncbi.nlm.nih.gov/pubmed/17230465	db	verified	
+7	94030934	T	C	splice_donor_variant	2	-2934	1	ENST00000297268	DM	2	2454224	ds	http://www.ncbi.nlm.nih.gov/pubmed/2454224	db	verified	
+12	48536730	G	A	splice_donor_variant	1	-806	1	ENST00000340802	DM	1	7518679	ds	http://www.ncbi.nlm.nih.gov/pubmed/7518679	db	verified	
+17	61995496	C	T	missense_variant&splice_region_variant	-120	1	-1	ENST00000323322	DM	1	18554279	as	http://www.ncbi.nlm.nih.gov/pubmed/18554279	db	verified	
+10	90770507	C	G	splice_region_variant&intron_variant	150	-3	1	ENST00000355740	DM	-3	15870181	as	http://www.ncbi.nlm.nih.gov/pubmed/15870181	db	verified	
+X	32613874	C	A	missense_variant&splice_region_variant	-1	120	-1	ENST00000357033	DM	-1	8279470	ds	http://www.ncbi.nlm.nih.gov/pubmed/8279470	db	verified	
+11	118963234	G	A	splice_donor_variant	1	-234	1	ENST00000278715	DM	1	8860014	ds	http://www.ncbi.nlm.nih.gov/pubmed/8860014	db	discard	can't access full article
+X	15864021	C	T	splice_region_variant&intron_variant	5	-382	-1	ENST00000329235	DM	5	17617514	ds	http://www.ncbi.nlm.nih.gov/pubmed/17617514	db	verified	
+16	3645604	A	T	splice_donor_variant	2	-1004	-1	ENST00000294008	DM	2	22911665	ds	http://www.ncbi.nlm.nih.gov/pubmed/22911665	db	verified	
+2	166621568	T	A	splice_acceptor_variant	5128	-2	-1	ENST00000392701	DM	-2	15687324	as	http://www.ncbi.nlm.nih.gov/pubmed/15687324	db	discard	predicted only
+7	117149085	C	T	splice_region_variant&intron_variant	4668	-3	1	ENST00000003084	DM	-3	7518409	as	http://www.ncbi.nlm.nih.gov/pubmed/7518409	db	verified	
+1	155210420	C	T	splice_donor_variant	1	-552	-1	ENST00000327247	DM	1	1558964	ds	http://www.ncbi.nlm.nih.gov/pubmed/1558964	db	verified	cDNA sequencing
+3	148899791	C	A	splice_donor_variant	1	-2342	-1	ENST00000264613	DM	1	20801540	ds	http://www.ncbi.nlm.nih.gov/pubmed/20801540	db	verified	
+2	71895972	G	A	missense_variant&splice_region_variant	-1	89	1	ENST00000410020	DM	-1	NO ID	ds	http://www.ncbi.nlm.nih.gov/pubmed/NO ID	db	verified	can also result in skipping of >1 exon
+2	71895972	G	A	missense_variant&splice_region_variant	-1	89	1	ENST00000410020	DM	-1	20535123	ds	http://www.ncbi.nlm.nih.gov/pubmed/20535123	db	verified	can also result in skipping of >1 exon
+15	45396564	C	G	splice_acceptor_variant	1277	-1	-1	ENST00000603300	DM	-1	24423310	as	http://www.ncbi.nlm.nih.gov/pubmed/24423310	db	discard	RT-PCR failed to demonstrate exon skipping
+12	103237426	T	A	splice_region_variant&synonymous_variant	-3	132	-1	ENST00000553106	DM	-3	11214902	ds	http://www.ncbi.nlm.nih.gov/pubmed/11214902	db	verified	
+17	45368454	G	A	splice_region_variant&synonymous_variant	-1	135	1	ENST00000559488	DM	-1	8878424	ds	http://www.ncbi.nlm.nih.gov/pubmed/8878424	db	discard	mutation doesn't match the one discussed in paper
+17	45368454	G	A	splice_region_variant&synonymous_variant&NMD_transcript_variant	-1	135	1	ENST00000560629	DM	-1	8878424	ds	http://www.ncbi.nlm.nih.gov/pubmed/8878424	db	discard	duplicate of above
+20	43254209	C	T	splice_donor_variant	1	-1239	-1	ENST00000372874	DM	1	7599635	ds	http://www.ncbi.nlm.nih.gov/pubmed/7599635	sa	verified	skipping of exon 5
+11	67287263	C	A	splice_donor_variant	1	-628	-1	ENST00000294288	DM	1	22981119	ds	http://www.ncbi.nlm.nih.gov/pubmed/22981119	db	verified	
+17	61995497	C	T	splice_acceptor_variant	209	-1	-1	ENST00000323322	DM	-1	12655557	as	http://www.ncbi.nlm.nih.gov/pubmed/12655557	db	verified	in vitro splicing assay, "data not shown", claim complete skipping
+10	13337607	C	G	splice_acceptor_variant	2580	-1	-1	ENST00000263038	DM	-1	10767344	as	http://www.ncbi.nlm.nih.gov/pubmed/10767344	db	verified	
+4	88533341	G	A	splice_donor_variant	1	-133	1	ENST00000399271	DM	1	11175790	ds	http://www.ncbi.nlm.nih.gov/pubmed/11175790	db	discard	predicted only
+6	31827818	C	G	splice_donor_variant	1	-96	-1	ENST00000375631	DM	1	11470272	ds	http://www.ncbi.nlm.nih.gov/pubmed/11470272	db	verified	
+17	29486112	G	T	splice_donor_variant	1	-4092	1	ENST00000358273	DM	1	14513407	ds	http://www.ncbi.nlm.nih.gov/pubmed/14513407	db	verified	
+5	41842777	C	T	missense_variant&splice_region_variant	-1	107	-1	ENST00000196371	DM	-1	17169596	ds	http://www.ncbi.nlm.nih.gov/pubmed/17169596	sa	verified	skipping of either exon 6 or exons 6 and 7. skipping of exon 6 leads to frameshift and mRNA degradation
+22	43024288	C	T	splice_acceptor_variant	2600	-1	-1	ENST00000361740	DM	-1	11159544	as	http://www.ncbi.nlm.nih.gov/pubmed/11159544	db	verified	
+10	90982267	C	T	splice_donor_variant	1	-6501	-1	ENST00000336233	DM	1	8617513	ds	http://www.ncbi.nlm.nih.gov/pubmed/8617513	db	verified	seperate mutation at -1 position shows exon skipping, while there was no detectable cDNA from the haplotype with this allele. Indirect evidence is good enough for me
+X	135861667	A	G	intron_variant	1210	-11	-1	ENST00000250617	DM	-11	11017088	as	http://www.ncbi.nlm.nih.gov/pubmed/11017088	dm	verified	
+11	108124539	A	C	splice_acceptor_variant	900	-2	1	ENST00000278616	DM	-2	11298136	as	http://www.ncbi.nlm.nih.gov/pubmed/11298136	db	discard	activates cryptic acceptor sites
+15	48737567	A	G	splice_region_variant&intron_variant	6	-710	-1	ENST00000316623	DM	6	22772377	ds	http://www.ncbi.nlm.nih.gov/pubmed/22772377	db	verified	Characterization of FBN1 c.5917+6T>C in transfected HEK293 cells demonstrated that it caused skipping of exon 47
+3	87322496	C	A	splice_donor_variant	1	-8834	-1	ENST00000344265	DM	1	21722153	ds	http://www.ncbi.nlm.nih.gov/pubmed/21722153	sa	verified	skipping of exon 2
+X	46736931	T	A	intron_variant	17394	-9	1	ENST00000218340	DM	-9	19516003	as	http://www.ncbi.nlm.nih.gov/pubmed/19516003	sa	verified	skipping of exon 4, frameshift, and premature termination
+5	95757580	T	G	splice_region_variant&intron_variant	4	-5755	-1	ENST00000311106	DM	4	9207799	ds	http://www.ncbi.nlm.nih.gov/pubmed/9207799	sa	verified	skipping of exon 5
+1	150779162	C	T	splice_region_variant&synonymous_variant	-1	121	-1	ENST00000271651	DM	-1	24134756	ds	http://www.ncbi.nlm.nih.gov/pubmed/24134756	sa	verified	skipping of exon 2
+9	33442298	C	T	splice_donor_variant	1	-89	-1	ENST00000297991	DM	1	12239222	ds	http://www.ncbi.nlm.nih.gov/pubmed/12239222	sa	verified	skipping of exon 5
+17	29541604	G	A	splice_donor_variant	1	-4419	1	ENST00000358273	DM	1	10451518	ds	http://www.ncbi.nlm.nih.gov/pubmed/10451518	sa	verified	skipping of exon 10b
+1	161046145	C	T	missense_variant&splice_region_variant	-1	121	-1	ENST00000368012	DM	-1	20691405	ds	http://www.ncbi.nlm.nih.gov/pubmed/20691405	sa	verified	skipping of exon 4, frameshift, and premature termination
+16	30762925	G	A	splice_donor_variant	1	-1628	1	ENST00000563588	DM	1	9245685	ds	http://www.ncbi.nlm.nih.gov/pubmed/9245685	sa	discard	tissue-specific effects; some intron retention, some cryptic splicing, skipping of exon 4 in all patients/tissues tested
+X	22094598	T	C	splice_region_variant&intron_variant	6	-996	1	ENST00000379374	DM	6	18252791	ds	http://www.ncbi.nlm.nih.gov/pubmed/18252791	sa	verified	skipping of exon 4
+5	37167148	C	T	splice_donor_variant	1	-1375	-1	ENST00000425232	DM	1	22425360	ds	http://www.ncbi.nlm.nih.gov/pubmed/22425360	sa	verified	skipping of exon 35 and premature termination
+3	148927953	C	T	splice_donor_variant	1	-782	-1	ENST00000264613	DM	1	12879954	ds	http://www.ncbi.nlm.nih.gov/pubmed/12879954	sa	verified	skipping of exon 3
+4	74283388	T	C	splice_donor_variant	2	-417	1	ENST00000295897	DM	2	17644793	ds	http://www.ncbi.nlm.nih.gov/pubmed/17644793	sa	verified	skipping of exon 11
+1	2339890	C	T	splice_donor_variant	1	-1496	-1	ENST00000288774	DM	1	9683594	ds	http://www.ncbi.nlm.nih.gov/pubmed/9683594	sa	verified	exon skipping (didn't specify which exon)
+10	90983589	T	C	splice_acceptor_variant	1260	-2	-1	ENST00000336233	DM	-2	8894696	as	http://www.ncbi.nlm.nih.gov/pubmed/8894696	sa	verified	skipping of exon 7
+1	161276117	A	C	splice_donor_variant	2	-159	-1	ENST00000533357	DM	2	17030746	ds	http://www.ncbi.nlm.nih.gov/pubmed/17030746	sa	verified	skipping of exon 4 and frameshift
+17	29559901	T	C	splice_donor_variant	2	-119	1	ENST00000358273	DM	2	9544853	ds	http://www.ncbi.nlm.nih.gov/pubmed/9544853	sa	verified	skipping of exon 20
+16	87936031	C	T	splice_region_variant&synonymous_variant	-1	96	-1	ENST00000309893	DM	-1	24530203	ds	http://www.ncbi.nlm.nih.gov/pubmed/24530203	sa	verified	skipping of exon 4
+1	158631200	C	T	splice_acceptor_variant	1292	-1	-1	ENST00000368147	DM	-1	8490186	as	http://www.ncbi.nlm.nih.gov/pubmed/8490186	sa	discard	mainly causes skipping of exon 18, but also produces some transcripts with cryptic splice activation
+16	68719107	G	A	splice_acceptor_variant	380	-1	1	ENST00000264012	DM	-1	20140736	as	http://www.ncbi.nlm.nih.gov/pubmed/20140736	sa	discard	predicted only
+22	43024289	T	C	splice_acceptor_variant	2599	-2	-1	ENST00000361740	DM	-2	11295830	as	http://www.ncbi.nlm.nih.gov/pubmed/11295830	sa	verified	skipping of exon 5
+7	94039844	G	A	splice_region_variant&intron_variant	5	-357	1	ENST00000297268	DM	5	8829655	ds	http://www.ncbi.nlm.nih.gov/pubmed/8829655	sa	verified	skipping of exon 21
+1	110200392	A	T	splice_acceptor_variant	99	-2	1	ENST00000369836	FP	-2	16854533	as	http://www.ncbi.nlm.nih.gov/pubmed/16854533	sa	verified	skipping of exons 4 and 5
+5	176684153	G	A	splice_donor_variant	1	-2837	1	ENST00000439151	DM	1	16547423	ds	http://www.ncbi.nlm.nih.gov/pubmed/16547423	sa	verified	skipping of exon 13
+8	141449150	C	A	splice_donor_variant	1	-3811	-1	ENST00000389328	DM	1	22989526	ds	http://www.ncbi.nlm.nih.gov/pubmed/22989526	sa	verified	skipping of exon 3 or exons 3 and 4, both leading to premature termination
+20	61449910	G	A	splice_region_variant&intron_variant	5	-664	1	ENST00000343916	DM	5	15551337	ds	http://www.ncbi.nlm.nih.gov/pubmed/15551337	sa	verified	skipping of exon 3 or exons 2 and 3
+14	88414071	C	T	splice_donor_variant	1	-1994	-1	ENST00000261304	DM	1	20886637	ds	http://www.ncbi.nlm.nih.gov/pubmed/20886637	db	discard	actually exon truncation
+6	169635010	G	A	splice_region_variant&intron_variant	2255	-8	-1	ENST00000366787	DP	-8	18455130	as	http://www.ncbi.nlm.nih.gov/pubmed/18455130	db	verified	variant increases the baseline level of exon skipping that occurs with reference allele
+3	15495333	T	C	splice_region_variant&intron_variant	3	-2113	-1	ENST00000383788	DM	3	10441569	ds	http://www.ncbi.nlm.nih.gov/pubmed/10441569	db	verified	there are cryptic sites that get activated in the preceding exon (i.e. the one before the mutated donor site), but skipping is the predominant consequence
+3	46944238	G	A	splice_acceptor_variant	81	-1	1	ENST00000313049	DM	-1	20152661	as	http://www.ncbi.nlm.nih.gov/pubmed/20152661	db	discard	"Functional studies are currently underway to specifically determine the consequence of this sequence alteration in the PTH1R gene"
+19	57744826	A	G	splice_acceptor_variant	778	-2	1	ENST00000302804	DM	-2	21733974	as	http://www.ncbi.nlm.nih.gov/pubmed/21733974	db	verified	
+9	137622080	A	G	splice_acceptor_variant	1427	-2	1	ENST00000371817	DM	-2	21611149	as	http://www.ncbi.nlm.nih.gov/pubmed/21611149	db	verified	can cause skipping of 1 or 2 exons
+13	52539174	A	C	splice_region_variant&intron_variant	3406	-5	-1	ENST00000242839	DM	-5	8526905	as	http://www.ncbi.nlm.nih.gov/pubmed/8526905	db	verified	
+X	107908818	G	C	splice_donor_variant	1	-908	1	ENST00000328300	DM	1	8441246	ds	http://www.ncbi.nlm.nih.gov/pubmed/8441246	db	verified	
+3	93603743	A	C	splice_region_variant&intron_variant	1437	-3	-1	ENST00000394236	DM?	-3	15147381	as	http://www.ncbi.nlm.nih.gov/pubmed/15147381	db	verified	
+2	228128660	G	A	missense_variant&splice_region_variant	-1	165	1	ENST00000396578	DM	-1	11044206	ds	http://www.ncbi.nlm.nih.gov/pubmed/11044206	db	verified	no image, but they claim
+9	137705885	G	T	splice_region_variant&intron_variant	3	-758	1	ENST00000371817	DM	3	8950675	ds	http://www.ncbi.nlm.nih.gov/pubmed/8950675	db	verified	" There was no evidence in the RT-PCR products to indicate the use of cryptic splice sites"
+3	48621809	C	G	splice_acceptor_variant	109	-1	-1	ENST00000328333	DM	-1	9406826	as	http://www.ncbi.nlm.nih.gov/pubmed/9406826	db	discard	predicted only
+1	53668106	G	A	splice_region_variant&intron_variant	5	-7581	1	ENST00000371486	DM	5	12809643	ds	http://www.ncbi.nlm.nih.gov/pubmed/12809643	db	verified	
+17	42428403	A	G	splice_acceptor_variant	235	-2	1	ENST00000053867	DM	-2	17202431	as	http://www.ncbi.nlm.nih.gov/pubmed/17202431	db	discard	predicted only - no validation
+X	107924113	A	T	splice_acceptor_variant	132	-2	1	ENST00000328300	DM	-2	18332068	as	http://www.ncbi.nlm.nih.gov/pubmed/18332068	sa	verified	skipping of exon 44
+11	108164206	T	A	splice_donor_variant	2	-1448	1	ENST00000278616	DM	2	9600235	ds	http://www.ncbi.nlm.nih.gov/pubmed/9600235	sa	verified	skipping of exon 33
+11	13514316	C	G	splice_donor_variant	1	-103	-1	ENST00000282091	DM	1	1302009	ds	http://www.ncbi.nlm.nih.gov/pubmed/1302009	sa	verified	skipping of exon 2
+19	19307860	G	A	splice_region_variant&intron_variant	5	-135	1	ENST00000303088	DM	5	14574520	ds	http://www.ncbi.nlm.nih.gov/pubmed/14574520	sa, db	discard	inhibits proper splicing, but I'm not sure if it leads to exon skipping? don't provide any evidence that mutation causes exon skipping
+11	31812253	C	T	splice_region_variant&intron_variant	5	-686	-1	ENST00000419022	DM	5	10694925	ds	http://www.ncbi.nlm.nih.gov/pubmed/10694925	sa, db	discard	link on pubmed leads to a different paper... yep, fuck it
+7	94034209	G	A	splice_region_variant&intron_variant	5	-302	1	ENST00000297268	DM	5	10694924	ds	http://www.ncbi.nlm.nih.gov/pubmed/10694924	sa	verified	skipping of exon 9
+11	18421095	G	A	missense_variant&splice_region_variant	-1	118	1	ENST00000540430	DM	-1	7944300	ds	http://www.ncbi.nlm.nih.gov/pubmed/7944300	sa	verified	skipping of exon 2, frameshift, and premature termination
+X	85133967	T	G	splice_region_variant&intron_variant	3	-5750	-1	ENST00000357749	DM	3	9678418	ds	http://www.ncbi.nlm.nih.gov/pubmed/9678418	sa	verified	skipping of exon 13
+X	154091355	T	G	splice_region_variant&intron_variant	3	-1214	-1	ENST00000360256	DM	3	10408784	ds	http://www.ncbi.nlm.nih.gov/pubmed/10408784	sa, db	discard	can't access full article - pubmed links to different article ... godammit
+5	140026836	C	T	splice_region_variant&intron_variant	5	-1573	-1	ENST00000252102	DM	5	18513682	ds	http://www.ncbi.nlm.nih.gov/pubmed/18513682	sa	verified	skipping of exon 2
+3	48610104	C	T	splice_region_variant&synonymous_variant	-1	69	-1	ENST00000328333	DM	-1	19486058	ds	http://www.ncbi.nlm.nih.gov/pubmed/19486058	sa	verified	skipping of exon 87
+20	35532654	T	C	splice_acceptor_variant	1113	-2	-1	ENST00000262878	DM	-2	21402907	as	http://www.ncbi.nlm.nih.gov/pubmed/21402907	sa	verified	skipping of exon 13
+X	21886576	T	G	intron_variant	14955	-9	1	ENST00000379484	DM	-9	21426410	as	http://www.ncbi.nlm.nih.gov/pubmed/21426410	sa	verified	skipping of exon 6
+18	43319280	G	A	splice_region_variant&intron_variant	5	-213	1	ENST00000436407	DM	5	22738189	ds	http://www.ncbi.nlm.nih.gov/pubmed/22738189	sa	verified	skipping of exon 6
+22	31013483	G	A	splice_donor_variant	1	-5472	1	ENST00000215838	DM	1	20607612	ds	http://www.ncbi.nlm.nih.gov/pubmed/20607612	sa	verified	skipping of exon 8, frameshift, and premature termination
+X	32841411	C	A	splice_donor_variant	1	-6654	-1	ENST00000357033	DM	1	12359139	ds	http://www.ncbi.nlm.nih.gov/pubmed/12359139	sa	discard	predicted only - no validation
+1	156834596	G	T	splice_region_variant&intron_variant	5	-2106	1	ENST00000524377	DM	5	16373086	ds	http://www.ncbi.nlm.nih.gov/pubmed/16373086	sa	verified	skipping of exons 2 and 3
+10	105806533	T	C	splice_acceptor_variant	964	-2	-1	ENST00000353479	DM	-2	9204958	as	http://www.ncbi.nlm.nih.gov/pubmed/9204958	sa	verified	skipping of exon 2
+X	13738103	T	G	splice_acceptor_variant	14066	-2	-1	ENST00000458511	DM	-2	12579492	as	http://www.ncbi.nlm.nih.gov/pubmed/12579492	sa, db	discard	can't access full article, seems like they did no validation
+4	15552604	G	C	splice_donor_variant	1	-2177	1	ENST00000424120	DM	1	18387594	ds	http://www.ncbi.nlm.nih.gov/pubmed/18387594	sa	verified	skipping of exon 19
+2	113818520	T	C	splice_region_variant&intron_variant	6	-1181	1	ENST00000393200	DM	6	22903787	ds	http://www.ncbi.nlm.nih.gov/pubmed/22903787	dm	verified	
+7	117230498	G	T	splice_region_variant&intron_variant	5	-1490	1	ENST00000003084	DM	5	7543385	ds	http://www.ncbi.nlm.nih.gov/pubmed/7543385	sa, db	verified	can't access full article, they discuss doing RT-PCR in the abstract .. good enough for me
+2	202582799	C	A	splice_donor_variant	1	-2237	-1	ENST00000264276	DM	1	24144828	ds	http://www.ncbi.nlm.nih.gov/pubmed/24144828	sa	verified	results in two equally abundant transcripts: one missing exon 24, and one retaining part of intron 24. both result in protein truncation.
+X	48337003	A	G	splice_acceptor_variant	97	-2	1	ENST00000348411	DM	-2	15342698	as	http://www.ncbi.nlm.nih.gov/pubmed/15342698	db	verified	
+6	49578736	C	T	splice_donor_variant	1	-3803	-1	ENST00000371175	DM	1	9442063	ds	http://www.ncbi.nlm.nih.gov/pubmed/9442063	sa	verified	results in skipping of exon 7, frameshift, and premature chain termination
+6	6182220	C	A	splice_donor_variant	1	-7120	-1	ENST00000264870	DM	1	15456491	ds	http://www.ncbi.nlm.nih.gov/pubmed/15456491	db	verified	results in skipping of 2 exons
+19	15295262	C	A	splice_acceptor_variant	455	-1	-1	ENST00000263388	DM	-1	16864835	as	http://www.ncbi.nlm.nih.gov/pubmed/16864835	sa	verified	results in skipping of exon 16
+12	48389093	T	C	splice_acceptor_variant	400	-2	-1	ENST00000380518	DM	-2	16189708	as	http://www.ncbi.nlm.nih.gov/pubmed/16189708	sa	verified	caused skipping of exon 11 in most transcripts and skipping of exons 11 AND 13 in others. This skipping of two unconnected exons due to a single splice-site mutation is unusual...
+17	3386791	A	G	splice_acceptor_variant	1699	-2	1	ENST00000263080	DM	-2	8023850	as	http://www.ncbi.nlm.nih.gov/pubmed/8023850	sa	discard	predicted only - no validation
+17	71196165	G	A	splice_region_variant&intron_variant	5	-540	1	ENST00000299886	DM	5	19008299	ds	http://www.ncbi.nlm.nih.gov/pubmed/19008299	sa	verified	results in skipping of exon 6, frameshift, and premature termination in exon 7
+6	33134289	C	T	splice_donor_variant	1	-306	-1	ENST00000374708	DM	1	7859284	ds	http://www.ncbi.nlm.nih.gov/pubmed/7859284	sa	verified	results in-frame skipping of one exon
+17	48273670	C	T	splice_region_variant&intron_variant	5	-110	-1	ENST00000225964	DM	5	2298750	ds	http://www.ncbi.nlm.nih.gov/pubmed/2298750	sa	verified	results in skipping of one exon
+1	100329940	A	C	splice_acceptor_variant	1961	-2	1	ENST00000294724	DM	-2	10801050	as	http://www.ncbi.nlm.nih.gov/pubmed/10801050	sa	verified	results in skipping of exon 6 where there is a presumed active site, leading to deleterious phenotypic effects
+6	80878748	G	T	splice_donor_variant	1	-2251	1	ENST00000320393	DM	1	8312380	ds	http://www.ncbi.nlm.nih.gov/pubmed/8312380	sa	verified	results in skipping of only exon 5 in some transcripts and skipping of exons 5 and 6 in others
+10	90982268	C	T	splice_region_variant&synonymous_variant	-1	72	-1	ENST00000336233	DM	-1	8254026	ds	http://www.ncbi.nlm.nih.gov/pubmed/8254026	sa	verified	results in skipping of one exon
+1	158587858	G	A	intron_variant	1154	-12	-1	ENST00000368147	FP	-12	10192450	as	http://www.ncbi.nlm.nih.gov/pubmed/10192450	sa	discard	partial exon skipping 
+3	48613682	C	T	splice_region_variant&synonymous_variant	-1	48	-1	ENST00000328333	DM	-1	9804332	ds	http://www.ncbi.nlm.nih.gov/pubmed/9804332	sa	verified	results in in-frame skipping of exon 70
+6	49578859	C	A	splice_acceptor_variant	1251	-1	-1	ENST00000371175	DM	-1	9759472	as	http://www.ncbi.nlm.nih.gov/pubmed/9759472	sa, db	verified	don't explicitly show cDNA sequencing but they claim the shorter fragments in their RT-PCR are the result of exon skipping
+3	48896637	G	C	splice_region_variant&intron_variant	351	-3	-1	ENST00000319017	DM	-3	16919490	as	http://www.ncbi.nlm.nih.gov/pubmed/16919490	sa	verified	results in skipping of exon 7, frameshift, and premature termination
+8	118819617	C	G	splice_acceptor_variant	5494	-1	-1	ENST00000378204	DM	-1	15985493	as	http://www.ncbi.nlm.nih.gov/pubmed/15985493	db	verified	
+3	37053593	A	G	splice_region_variant&intron_variant	3	-2330	1	ENST00000231790	DM	3	12655562	ds	http://www.ncbi.nlm.nih.gov/pubmed/12655562	dm	verified	
+2	189860906	T	G	splice_donor_variant	2	-218	1	ENST00000304636	DM	2	18779970	ds	http://www.ncbi.nlm.nih.gov/pubmed/18779970	sa, db	discard	no experimental evidence given...
+X	38158206	T	A	splice_region_variant&intron_variant	3	-1501	-1	ENST00000378505	DM	3	21326217	ds	http://www.ncbi.nlm.nih.gov/pubmed/21326217	sa	verified	results in skipping of exon 10
+6	26091818	G	T	splice_donor_variant	1	-1095	1	ENST00000357618	DM	1	10348824	ds	http://www.ncbi.nlm.nih.gov/pubmed/10348824	sa	verified	results in skipping of exon 3
+1	43886654	G	T	missense_variant&splice_region_variant	-1	235	1	ENST00000562955	DM	-1	23932106	ds	http://www.ncbi.nlm.nih.gov/pubmed/23932106	sa	verified	results in skipping of exon 10
+11	108012432	G	T	splice_region_variant&intron_variant	5	-732	1	ENST00000265838	DM	5	20046049	ds	http://www.ncbi.nlm.nih.gov/pubmed/20046049	sa, db	verified	"cDNA analysis revealed presence of exon 8 skipping" but don't describe experiment or show data ... eh we'll take their word for it
+16	1412610	A	G	splice_acceptor_variant	75	-2	1	ENST00000204679	DM	-2	19370764	as	http://www.ncbi.nlm.nih.gov/pubmed/19370764	db	verified	can also cause intron retention
+17	29588876	G	C	splice_donor_variant	1	-3371	1	ENST00000358273	DM	1	19449407	ds	http://www.ncbi.nlm.nih.gov/pubmed/19449407	sa	verified	results in skipping of exon 27a
+13	52511817	T	A	splice_acceptor_variant	1370	-2	-1	ENST00000242839	DM	-2	9829905	as	http://www.ncbi.nlm.nih.gov/pubmed/9829905	sa	verified	results in skipping of exon 18
+X	152959906	G	C	splice_region_variant&intron_variant	5	-82	1	ENST00000253122	DM	5	15690373	ds	http://www.ncbi.nlm.nih.gov/pubmed/15690373	sa	verified	results in skipping of exon 10; RT-PCR confirmed skipping, although paper does not include the data
+2	21237466	C	G	splice_acceptor_variant	479	-1	-1	ENST00000233242	DM	-1	19084451	as	http://www.ncbi.nlm.nih.gov/pubmed/19084451	sa	verified	results in skipping of exon 24
+20	49562304	A	T	splice_region_variant&intron_variant	80	-5	-1	ENST00000371588	DP	-5	16641202	as	http://www.ncbi.nlm.nih.gov/pubmed/16641202	db	verified	
+17	48270354	C	T	splice_donor_variant	1	-143	-1	ENST00000225964	DM	1	8408653	ds	http://www.ncbi.nlm.nih.gov/pubmed/8408653	sa	verified	intron retention (not exon skipping)
+X	14868622	C	T	splice_region_variant&intron_variant	5	-5214	-1	ENST00000398334	DM	5	16679491	ds	http://www.ncbi.nlm.nih.gov/pubmed/16679491	db	verified	
+17	40690504	G	A	splice_donor_variant&non_coding_transcript_variant	1	-184	1	ENST00000585572	DM	1	11153910	ds	http://www.ncbi.nlm.nih.gov/pubmed/11153910	sa	verified	results in skipping of either exon 3 or exons 2 and 3
+17	40690504	G	A	splice_donor_variant	1	-184	1	ENST00000225927	DM	1	11153910	ds	http://www.ncbi.nlm.nih.gov/pubmed/11153910	sa	discard	duplicate of above
+15	48789589	C	A	splice_acceptor_variant	1593	-1	-1	ENST00000316623	DM	-1	19390640	as	http://www.ncbi.nlm.nih.gov/pubmed/19390640	db	discard	predicted only
+2	189858187	T	G	splice_donor_variant	2	-577	1	ENST00000304636	DM	2	7487954	ds	http://www.ncbi.nlm.nih.gov/pubmed/7487954	sa	verified	results in skipping of exon 17
+15	91550180	C	G	missense_variant&splice_region_variant	-1	97	-1	ENST00000333371	DM	-1	18347289	ds	http://www.ncbi.nlm.nih.gov/pubmed/18347289	sa	verified	results in skipping of exon 9 or exons 9 and 10
+2	189866176	G	A	splice_region_variant&synonymous_variant	-1	54	1	ENST00000304636	DM	-1	7665911	ds	http://www.ncbi.nlm.nih.gov/pubmed/7665911	sa	verified	results in skipping of exon 34
+16	57009065	T	G	splice_donor_variant	2	-2938	1	ENST00000200676	DM	2	8906584	ds	http://www.ncbi.nlm.nih.gov/pubmed/8906584	sa	verified	results in skipping of exon 10 as well as downstream effect on splicing of intron13/exon14 leading to 31 bp insertion with stop codon resulting in premature termination
+X	9728757	C	T	splice_region_variant&synonymous_variant	-1	110	-1	ENST00000467482	DM	-1	9887374	ds	http://www.ncbi.nlm.nih.gov/pubmed/9887374	db	discard	predicted only - no validation
+5	42718224	G	A	splice_donor_variant	1	-331	1	ENST00000230882	DM	1	9467570	ds	http://www.ncbi.nlm.nih.gov/pubmed/9467570	db	verified	
+19	41928068	G	C	splice_acceptor_variant	2867	-1	1	ENST00000540732	DM	-1	19715473	as	http://www.ncbi.nlm.nih.gov/pubmed/19715473	sa, db	discard	is this a deletion, not a SNP? results in skipping of exon 3. Nah, the SNP is referenced in the paper as a previously-discovered mutation which they say causes exon skipping, but they provide no evidence ore ven a citation.
+19	41928068	G	C	splice_acceptor_variant	2867	-1	1	ENST00000269980	DM	-1	19715473	as	http://www.ncbi.nlm.nih.gov/pubmed/19715473	sa	discard	duplicate of above
+1	183556028	A	G	splice_donor_variant	2	-9186	-1	ENST00000367535	DM	2	7803798	ds	http://www.ncbi.nlm.nih.gov/pubmed/7803798	sa	verified	results in skipping of exon 3
+7	142658446	C	T	splice_donor_variant	1	-255	-1	ENST00000355265	FP	1	11375401	ds	http://www.ncbi.nlm.nih.gov/pubmed/11375401	sa	discard	half-exon skipping, half-cryptic splice activation
+1	67517692	T	C	splice_region_variant&intron_variant	3	-1505	-1	ENST00000235345	DM	3	19508970	ds	http://www.ncbi.nlm.nih.gov/pubmed/19508970	sa	verified	results in skipping of exon 4
+2	220284971	A	G	splice_acceptor_variant	94	-2	1	ENST00000373960	DM	-2	17626518	as	http://www.ncbi.nlm.nih.gov/pubmed/17626518	sa	discard	"presumably causing skipping"
+18	55221656	C	A	missense_variant&splice_region_variant	-165	1	-1	ENST00000382873	DM	1	7541650	as	http://www.ncbi.nlm.nih.gov/pubmed/7541650	db	verified	Screened for processed mRNA products with a skipped exon by using a probe spanning the junction of the two exons flanking the skipped exon. Seem to just infer that this is caused by the given mutation
+6	129813629	G	A	splice_donor_variant	1	-10175	1	ENST00000421865	DM	1	17949279	ds	http://www.ncbi.nlm.nih.gov/pubmed/17949279	sa	verified	results in skipping of exon 58, frameshift, and premature termination
+1	100345603	G	T	splice_donor_variant	1	-585	1	ENST00000294724	DM	1	8702417	ds	http://www.ncbi.nlm.nih.gov/pubmed/8702417	sa	verified	results in exon skipping, frameshift, and premature termination
+19	11224206	C	G	splice_region_variant&intron_variant	81	-5	1	ENST00000558518	DM	-5	19411563	as	http://www.ncbi.nlm.nih.gov/pubmed/19411563	sa	verified	retention of intron 9
+10	124812676	G	A	missense_variant&splice_region_variant	-1	100	1	ENST00000358776	DM	-1	11013134	ds	http://www.ncbi.nlm.nih.gov/pubmed/11013134	db	verified	
+7	24746001	G	C	splice_region_variant&intron_variant	1745	-6	-1	ENST00000342947	DM	-6	14676472	as	http://www.ncbi.nlm.nih.gov/pubmed/14676472	sa	verified	results in skipping of exon 8 
+2	189926287	C	A	splice_donor_variant	1	-778	-1	ENST00000374866	DM	1	9425231	ds	http://www.ncbi.nlm.nih.gov/pubmed/9425231	sa	verified	results in skipping of exon 28
+22	24175891	G	A	splice_donor_variant	1	-437	1	ENST00000263121	DM	1	19912265	ds	http://www.ncbi.nlm.nih.gov/pubmed/19912265	sa	verified	results in skipping of exon 8 
+13	32900754	A	G	splice_region_variant&intron_variant	4	-2826	1	ENST00000544455	DM	4	20455026	ds	http://www.ncbi.nlm.nih.gov/pubmed/20455026	sa	verified	results in skipping of exon 7, frameshift, and premature stop codon
+15	80465485	A	G	missense_variant&splice_region_variant	-2	130	1	ENST00000407106	DM	-2	11476670	ds	http://www.ncbi.nlm.nih.gov/pubmed/11476670	db	verified	RT-PCR in vivo + mini-gene assay in vitro, can cause skipping of 2 exons
+10	100185743	C	A	splice_acceptor_variant	1229	-1	-1	ENST00000325103	DM	-1	19398212	as	http://www.ncbi.nlm.nih.gov/pubmed/19398212	sa	verified	results in skipping of exon 12
+10	105793702	C	G	splice_donor_variant	1	-569	-1	ENST00000353479	DM	1	11406649	ds	http://www.ncbi.nlm.nih.gov/pubmed/11406649	sa	discard	presumed to cause exon skipping and cryptic splice activation
+7	94030933	G	A	splice_donor_variant	1	-2935	1	ENST00000297268	DM	1	2394758	ds	http://www.ncbi.nlm.nih.gov/pubmed/2394758	sa	verified	results in skipping of exon 6
+15	72643577	T	C	splice_acceptor_variant	1832	-2	-1	ENST00000268097	DM	-2	9338583	as	http://www.ncbi.nlm.nih.gov/pubmed/9338583	sa	verified	results in skipping of exon 6
+12	48258825	C	G	splice_region_variant&intron_variant	5	-7354	-1	ENST00000550325	DM	5	8796143	ds	http://www.ncbi.nlm.nih.gov/pubmed/8796143	sa	verified	results in skipping of exon 4, frameshift, premature termination
+17	42336864	C	A	splice_donor_variant	1	-152	-1	ENST00000262418	DM	1	9326249	ds	http://www.ncbi.nlm.nih.gov/pubmed/9326249	sa	verified	results in skipping of exon 8, frameshift, and premature termination
+5	73992569	G	A	splice_region_variant&intron_variant	5	-252	1	ENST00000261416	DM	5	23046579	ds	http://www.ncbi.nlm.nih.gov/pubmed/23046579	sa	verified	results in skipping of exon 4, frameshift, premature termination; data not shown
+1	100671864	T	C	splice_region_variant&intron_variant	137	-7	-1	ENST00000370132	DM	-7	9239422	as	http://www.ncbi.nlm.nih.gov/pubmed/9239422	sa, db	discard	didn't find variant of interest in the paper... yeah weird
+13	32900419	G	A	splice_region_variant&synonymous_variant	-1	41	1	ENST00000544455	DM	-1	19267246	ds	http://www.ncbi.nlm.nih.gov/pubmed/19267246	sa	verified	results in skipping of exon 6 or exons 5 and 6
+12	6131906	C	T	missense_variant&splice_region_variant	-1	159	-1	ENST00000261405	DM	-1	15226181	ds	http://www.ncbi.nlm.nih.gov/pubmed/15226181	sa	verified	results in skipping of exon 26 or exons 23 and 26. The skipping of two nonadjacent exons is interesting...
+9	111662096	A	G	splice_region_variant&intron_variant	6	-1067	-1	ENST00000374647	DM	6	11179008	ds	http://www.ncbi.nlm.nih.gov/pubmed/11179008	sa	verified	results in skipping of exon 20 in a tissue-specific manner
+9	34647256	G	A	splice_donor_variant	1	-233	1	ENST00000378842	DM	1	21150919	ds	http://www.ncbi.nlm.nih.gov/pubmed/21150919	db	verified	cDNA sequencing
+9	34647256	G	A	splice_donor_variant	1	-856	1	ENST00000556278	DM	1	21150919	ds	http://www.ncbi.nlm.nih.gov/pubmed/21150919	db	discard	duplicate of above
+3	120394638	C	T	splice_donor_variant	1	-802	-1	ENST00000283871	DM	1	24575791	ds	http://www.ncbi.nlm.nih.gov/pubmed/24575791	sa	discard	predicted skipping
+6	26093461	G	A	splice_donor_variant	1	-953	1	ENST00000357618	DM	1	11875012	ds	http://www.ncbi.nlm.nih.gov/pubmed/11875012	sa	verified	results in skipping of exon 5
+X	71791902	C	T	splice_region_variant&intron_variant	5	-3168	-1	ENST00000373573	DM	5	22889856	ds	http://www.ncbi.nlm.nih.gov/pubmed/22889856	sa	verified	results in skipping of exon 2 and premature termination
+5	112155046	G	T	splice_region_variant&intron_variant	5	-2547	1	ENST00000457016	DM	5	8125478	ds	http://www.ncbi.nlm.nih.gov/pubmed/8125478	sa	verified	results in skipping of exon 9
+1	24143965	C	T	splice_donor_variant	1	-705	-1	ENST00000374490	DM	1	19036343	ds	http://www.ncbi.nlm.nih.gov/pubmed/19036343	sa	verified	results in skipping of exon 3
+3	93646252	C	G	splice_acceptor_variant	46266	-1	-1	ENST00000394236	DM	-1	10456456	as	http://www.ncbi.nlm.nih.gov/pubmed/10456456	sa	discard	RT-PCR showed exon skipping, cryptic splicing, and correct splicing
+X	31792076	C	T	splice_donor_variant	1	-44211	-1	ENST00000357033	DM	1	9628192	ds	http://www.ncbi.nlm.nih.gov/pubmed/9628192	sa	verified	results in skipping of exon 51
+2	189867793	G	T	splice_region_variant&intron_variant	5	-344	1	ENST00000304636	DM	5	8477261	ds	http://www.ncbi.nlm.nih.gov/pubmed/8477261	sa	verified	causes exon skipping in 70% of mRNA transcripts from mutated, correct splicing in other 30%
+12	110017606	G	A	splice_acceptor_variant	3656	-1	1	ENST00000228510	DM	-1	22159817	as	http://www.ncbi.nlm.nih.gov/pubmed/22159817	sa	verified	results in skipping of exon 4
