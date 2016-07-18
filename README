@@ -1,6 +1,7 @@
 Here is the pipeline used to generate this set of variants causing exon skipping:
 
-BEFORE CURATION:
+# BEFORE CURATION
+
 1. query_hgmd_splice_MySQL.py produces hgmd_splice_variants.tsv
 
 2. pull out hgmd_slice_pmids (trivial, can use cut or some other command line utility)
