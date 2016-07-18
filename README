@@ -20,8 +20,8 @@ Note: merge_spreadsheets.R merges manual annotations from a partially curated sp
 
 # AFTER CURATION
 
-python convert_tsv_to_vcf.py -i curated_spreadsheet.tsv --info status,donorDist,acceptorDist,type | grep -v "status=discard" | grep -v "type=as" > final/donor_skip.vcf
-python convert_tsv_to_vcf.py -i curated_spreadsheet.tsv --info status,donorDist,acceptorDist,type | grep -v "status=discard" | grep -v "type=ds" > final/acceptor_skip.vcf
+python convert_tsv_to_vcf.py -i curated_spreadsheet.tsv --info status,donorDist,acceptorDist,type | grep -v "status=discard" | grep -v "type=as" > donor_skip.vcf
+python convert_tsv_to_vcf.py -i curated_spreadsheet.tsv --info status,donorDist,acceptorDist,type | grep -v "status=discard" | grep -v "type=ds" > acceptor_skip.vcf
 
 # Other notes
 
