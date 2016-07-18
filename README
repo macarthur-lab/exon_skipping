@@ -4,7 +4,7 @@ Here is the pipeline used to generate this set of variants causing exon skipping
 
 1. run query_hgmd_splice_MySQL.py to produce hgmd_splice_variants.tsv
 
-2. pull out hgmd_slice_pmids (trivial, can use cut or some other command line utility)
+2. pull out hgmd_splice_pmids (trivial, can use cut or some other command line utility)
 
 3. run scrape_pubmed_abstracts.py which takes hgmd_splice_pmids.txt as input, produces exon_skipping_pmids.txt
 
@@ -19,6 +19,7 @@ Here is the pipeline used to generate this set of variants causing exon skipping
 Note: merge_spreadsheets.R merges manual annotations from a partially curated spreadsheet with a newly generated spreadsheet 
 
 # AFTER CURATION
+
 python convert_tsv_to_vcf.py -i curated_spreadsheet.tsv --info status,donorDist,acceptorDist,type | grep -v "status=discard" | grep -v "type=as" > final/donor_skip.vcf
 python convert_tsv_to_vcf.py -i curated_spreadsheet.tsv --info status,donorDist,acceptorDist,type | grep -v "status=discard" | grep -v "type=ds" > final/acceptor_skip.vcf
 
