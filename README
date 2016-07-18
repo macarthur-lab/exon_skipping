@@ -18,10 +18,10 @@ Here is the pipeline used to generate this set of variants causing exon skipping
 
 Note: merge_spreadsheets.R merges manual annotations from a partially curated spreadsheet with a newly generated spreadsheet 
 
-AFTER CURATION:
+# AFTER CURATION
 python convert_tsv_to_vcf.py -i curated_spreadsheet.tsv --info status,donorDist,acceptorDist,type | grep -v "status=discard" | grep -v "type=as" > final/donor_skip.vcf
-
 python convert_tsv_to_vcf.py -i curated_spreadsheet.tsv --info status,donorDist,acceptorDist,type | grep -v "status=discard" | grep -v "type=ds" > final/acceptor_skip.vcf
 
+# Other notes
 convert_tsv_to_vcf.py is in maclab_scripts/vcf/
 tableize_vep_vcf.py is in maclab_scripts/vep/
